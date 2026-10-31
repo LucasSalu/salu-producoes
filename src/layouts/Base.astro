@@ -1,0 +1,74 @@
+---
+import '@fontsource/playfair-display/latin-400.css';
+import '@fontsource/playfair-display/latin-500.css';
+import '@fontsource/playfair-display/latin-600.css';
+import '@fontsource/great-vibes/latin-400.css';
+import '@fontsource/jost/latin-300.css';
+import '@fontsource/jost/latin-400.css';
+import '@fontsource/jost/latin-500.css';
+import '../styles/global.css';
+import { SITE, CONTACT, LINKS } from '../consts';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = SITE.title, description = SITE.description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: SITE.name,
+  description: SITE.description,
+  url: SITE.url,
+  telephone: `+${CONTACT.whatsapp}`,
+  image: `${SITE.url}/og-image.jpg`,
+  areaServed: ['Paulínia', 'São Paulo'],
+  sameAs: [LINKS.instagram],
+  priceRange: 'R$ 1.990 - R$ 7.590',
+};
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#0a0a0b" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${SITE.url}/og-image.jpg`} />
+    <meta property="og:locale" content="pt_BR" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${SITE.url}/og-image.jpg`} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <div class="pointer-events-none fixed inset-x-0 top-0 z-[60] h-0.5">
+      <div
+        id="scroll-progress"
+        class="h-full origin-left"
+        style="background: var(--color-gold); transform: scaleX(0);"
+      ></div>
+    </div>
+    <slot />
+    <div id="cursor" aria-hidden="true"></div>
+    <script>
+      import '../scripts/motion';
+    </script>
+  </body>
+</html>

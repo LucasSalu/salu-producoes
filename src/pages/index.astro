@@ -1,0 +1,171 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WhatsAppFloat from '../components/layout/WhatsAppFloat.astro';
+import Hero from '../components/sections/Hero.astro';
+import Marquee from '../components/sections/Marquee.astro';
+import Pacotes from '../components/sections/Pacotes.astro';
+import Processo from '../components/sections/Processo.astro';
+import Faq from '../components/sections/Faq.astro';
+import { LINKS } from '../consts';
+import { byNumber, srcset, fallback, alt, largest } from '../lib/fotos';
+
+const destaques = [2, 8, 16, 27, 34, 45, 85, 168, 228, 7].map(byNumber);
+const spans = [
+  'lg:col-span-7',
+  'lg:col-span-5',
+  'lg:col-span-4',
+  'lg:col-span-4',
+  'lg:col-span-4',
+  'lg:col-span-6',
+  'lg:col-span-6',
+  'lg:col-span-4',
+  'lg:col-span-4',
+  'lg:col-span-4',
+];
+---
+
+<Base>
+  <Header />
+
+  <main>
+    <Hero />
+    <Marquee />
+
+    <section id="sobre" class="px-6 py-24 md:py-36">
+      <div class="mx-auto grid max-w-[1400px] items-center gap-16 md:grid-cols-2">
+        <div class="relative overflow-hidden" data-reveal>
+          <img
+            src="/fotos/sobre-bw-960.webp"
+            srcset="/fotos/sobre-bw-480.webp 480w, /fotos/sobre-bw-960.webp 960w, /fotos/sobre-bw-1365.webp 1365w"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            alt="Casal sob o véu, em preto e branco — casamento registrado pela Salu Produções"
+            class="aspect-[4/5] w-full scale-[1.06] object-cover object-[50%_18%]"
+            data-parallax
+            loading="lazy"
+            decoding="async"
+          />
+          <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-champagne/15"></div>
+        </div>
+
+        <div data-reveal>
+          <p class="label mb-6">01 — Sobre</p>
+          <h2
+            class="text-balance font-display text-[clamp(2.2rem,5vw,4.2rem)] leading-[1.02] tracking-[-0.01em]"
+          >
+            Não vendemos fotos.<br />Guardamos o dia para sempre.
+          </h2>
+          <p class="mt-8 max-w-lg text-lg leading-relaxed text-cream/70">
+            Todo casamento tem um dia. E todo dia tem detalhes que ninguém vê: a mão que
+            treme, o abraço antes de entrar, o riso na hora errada.
+          </p>
+          <p class="mt-4 max-w-lg leading-relaxed text-cream/60">
+            A Salu Produções existe para que nada disso se perca. Chegamos com tudo
+            alinhado, acompanhamos com discrição e cuidamos de cada imagem com atenção e
+            responsabilidade.
+          </p>
+          <a
+            href="/sobre"
+            class="label mt-10 inline-block border-b border-champagne/40 pb-1 transition-colors hover:border-champagne"
+          >
+            Conheça a Salu →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="citacao" class="relative overflow-hidden px-6 py-28 md:py-40" style="background: var(--color-surface);">
+      <div class="mx-auto max-w-5xl text-center" data-reveal>
+        <p class="mb-8 font-script text-4xl text-champagne md:text-6xl">Machado de Assis</p>
+        <blockquote
+          class="text-balance font-display text-[clamp(1.9rem,4.6vw,3.8rem)] leading-[1.12] tracking-[-0.01em]"
+        >
+          "A saudade é o passar e o repassar das memórias antigas."
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="portfolio" class="px-6 py-24 md:py-36">
+      <div class="mx-auto max-w-[1400px]">
+        <div class="flex flex-wrap items-end justify-between gap-8" data-reveal>
+          <div>
+            <p class="label mb-6">02 — Portfólio</p>
+            <h2
+              class="text-balance font-display text-[clamp(2.2rem,5vw,4.2rem)] leading-[1.02] tracking-[-0.01em]"
+            >
+              Casais reais,<br />histórias que ficam.
+            </h2>
+          </div>
+          <a href="/portfolio" class="label border-b border-champagne/40 pb-1 hover:border-champagne">
+            Ver todos →
+          </a>
+        </div>
+
+        <div
+          id="galeria"
+          class="mt-16 grid grid-cols-2 gap-3 md:grid-cols-6 lg:grid-cols-12"
+          data-reveal-group
+        >
+          {destaques.map((foto, i) => (
+            <a
+              href={largest(foto)}
+              data-pswp-width={foto.w}
+              data-pswp-height={foto.h}
+              target="_blank"
+              rel="noopener"
+              class:list={[
+                'group relative col-span-1 block overflow-hidden md:col-span-2',
+                spans[i],
+              ]}
+            >
+              <img
+                src={fallback(foto, 960)}
+                srcset={srcset(foto)}
+                sizes="(min-width: 1024px) 40vw, (min-width: 768px) 33vw, 50vw"
+                alt={alt(foto)}
+                class="h-[260px] w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.06] md:h-[340px] lg:h-[430px]"
+                loading="lazy"
+                decoding="async"
+              />
+              <span
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-bg/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+              ></span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <Pacotes />
+    <Processo />
+    <Faq />
+
+    <section id="contato" class="px-6 py-28 text-center md:py-36" style="background: var(--color-surface);">
+      <div class="mx-auto max-w-4xl" data-reveal>
+        <p class="label mb-6">Vamos conversar</p>
+        <h2
+          class="text-balance font-display text-[clamp(2.2rem,5.4vw,4.4rem)] leading-[1.02] tracking-[-0.01em]"
+        >
+          Seu casamento merece ser lembrado do jeito que foi.
+        </h2>
+        <p class="mx-auto mt-8 max-w-xl text-cream/60">
+          Primeira conversa gratuita e sem compromisso. Respondemos em até 24 horas úteis.
+        </p>
+        <div class="mt-12 flex flex-wrap justify-center gap-4">
+          <a href="/orcamento" class="btn btn-gold">Solicitar orçamento</a>
+          <a href={LINKS.whatsapp} target="_blank" rel="noopener" class="btn btn-ghost">
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  <WhatsAppFloat />
+
+  <script>
+    import '../scripts/lightbox';
+  </script>
+</Base>

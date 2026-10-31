@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WhatsAppFloat from '../components/layout/WhatsAppFloat.astro';
+import { CONTACT } from '../consts';
+---
+
+<Base
+  title="Sobre a Salu | Salu Produções"
+  description="A Salu Produções trabalha com fotografia e filme de casamento para que o casal viva o dia com tranquilidade."
+>
+  <Header />
+
+  <main class="pt-36">
+    <section class="px-6 pb-24">
+      <div class="mx-auto grid max-w-7xl items-start gap-14 md:grid-cols-2">
+        <div class="relative overflow-hidden">
+          <img
+            src="/fotos/sobre-bw-960.webp"
+            srcset="/fotos/sobre-bw-480.webp 480w, /fotos/sobre-bw-960.webp 960w, /fotos/sobre-bw-1365.webp 1365w"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            alt="Casal sob o véu, em preto e branco — casamento registrado pela Salu Produções"
+            class="aspect-[4/5] w-full object-cover object-[50%_18%]"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-champagne/15"></div>
+        </div>
+
+        <div>
+          <p class="label mb-4">Sobre</p>
+          <h1 class="font-display text-[clamp(2.4rem,5.4vw,4.2rem)] leading-[1.02] tracking-[-0.01em]">
+            Um registro honesto para atravessar o tempo.
+          </h1>
+
+          <p class="mt-6 leading-relaxed text-cream/70">
+            A Salu Produções trabalha com fotografia e filme de casamento para que o casal
+            viva o dia com tranquilidade.
+          </p>
+          <p class="mt-4 leading-relaxed text-cream/70">
+            Chegamos ao casamento com tudo alinhado, acompanhamos com discrição e cuidamos
+            da memória com atenção e responsabilidade.
+          </p>
+          <p class="mt-4 leading-relaxed text-cream/70">
+            Um registro honesto, bem conduzido e pensado para atravessar o tempo.
+          </p>
+
+          <div class="gold-line my-10"></div>
+
+          <dl class="grid grid-cols-2 gap-6 text-sm">
+            <div>
+              <dt class="label">Sede</dt>
+              <dd class="mt-2 text-cream/70">{CONTACT.city} · {CONTACT.state}</dd>
+            </div>
+            <div>
+              <dt class="label">Atendimento</dt>
+              <dd class="mt-2 text-cream/70">{CONTACT.area}</dd>
+            </div>
+          </dl>
+
+          <a href="/orcamento" class="btn btn-gold mt-10">Solicitar orçamento</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  <WhatsAppFloat />
+</Base>

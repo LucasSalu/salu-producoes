@@ -1,0 +1,69 @@
+---
+import { CONTACT } from '../../consts';
+import { byNumber, srcset, fallback, alt } from '../../lib/fotos';
+
+const hero = byNumber(70);
+---
+
+<section class="grain relative flex min-h-[100svh] items-end overflow-hidden" data-hero>
+  <img
+    src={fallback(hero, 1600)}
+    srcset={srcset(hero)}
+    sizes="100vw"
+    alt={alt(hero)}
+    class="absolute inset-0 h-full w-full scale-[1.02] object-cover object-[50%_38%]"
+    data-hero-img
+    fetchpriority="high"
+    decoding="async"
+  />
+  <div
+    class="absolute inset-0"
+    style="background: linear-gradient(180deg, rgba(10,10,11,.62) 0%, rgba(10,10,11,.26) 38%, rgba(10,10,11,.8) 72%, rgba(10,10,11,.97) 100%);"
+  >
+  </div>
+
+  <div class="relative mx-auto w-full max-w-[1400px] px-6 pb-24 pt-44">
+    <p class="label mb-5" data-hero-item style="animation-delay: .2s">
+      Fotografia e filme de casamento · {CONTACT.city} · {CONTACT.state}
+    </p>
+
+    <p
+      class="mb-4 font-script text-4xl text-champagne md:text-6xl"
+      data-hero-item
+      style="animation-delay: .3s"
+    >
+      Salu Produções
+    </p>
+
+    <h1
+      class="font-display text-[clamp(2.9rem,8.4vw,7.2rem)] font-medium leading-[0.95] tracking-[-0.02em]"
+    >
+      <span class="mask"><span class="line" data-hero-line>O dia passa.</span></span>
+      <span class="mask"><span class="line" data-hero-line>A memória fica.</span></span>
+    </h1>
+
+    <p
+      class="mt-8 max-w-xl text-base leading-relaxed text-cream/70 md:text-lg"
+      data-hero-item
+      style="animation-delay: .7s"
+    >
+      Fotografia e filme de casamento com tranquilidade, discrição e um olhar que
+      atravessa gerações.
+    </p>
+
+    <div class="mt-10 flex flex-wrap gap-4" data-hero-item style="animation-delay: .82s">
+      <a href="/orcamento" class="btn btn-gold">Quero meu orçamento</a>
+      <a href="/portfolio" class="btn btn-ghost">Ver portfólio</a>
+    </div>
+  </div>
+
+  <div
+    class="absolute bottom-8 right-8 hidden flex-col items-center gap-3 md:flex"
+    data-hero-item
+    style="animation-delay: 1s"
+    aria-hidden="true"
+  >
+    <span class="text-[0.6rem] uppercase tracking-[0.3em] text-cream/40">role</span>
+    <span class="h-12 w-px bg-gradient-to-b from-champagne/60 to-transparent"></span>
+  </div>
+</section>

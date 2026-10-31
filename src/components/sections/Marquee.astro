@@ -1,0 +1,21 @@
+---
+const words = ['Tranquilidade', 'Olhar', 'Memória', 'Detalhe', 'Discrição', 'Emoção'];
+const sequence = [...words, ...words];
+---
+
+<section class="overflow-hidden border-y border-white/10 py-5" aria-hidden="true">
+  <div class="marquee">
+    <div class="marquee-track">
+      {[0, 1].map(() => (
+        <div class="flex shrink-0 items-center">
+          {sequence.map((word) => (
+            <span class="mx-6 flex items-center gap-6 font-display text-2xl text-cream/45 md:text-4xl">
+              {word}
+              <span class="text-base text-gold">✦</span>
+            </span>
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

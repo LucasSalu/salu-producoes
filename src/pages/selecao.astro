@@ -1,0 +1,223 @@
+---
+import '@fontsource/playfair-display/latin-400.css';
+import '@fontsource/jost/latin-400.css';
+import '../styles/global.css';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const fotos = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'src/data/fotos.json'), 'utf-8'),
+);
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Seleção de fotos | Salu Produções</title>
+  </head>
+  <body class="bg-bg text-cream">
+    <header class="sticky top-0 z-20 border-b border-white/10 bg-bg/95 px-5 py-4 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3">
+        <div>
+          <p class="label">Salu Produções</p>
+          <h1 class="font-display text-xl md:text-2xl">Escolha as melhores fotos</h1>
+        </div>
+        <div class="flex flex-wrap items-center gap-2 text-xs">
+          <button data-filter="all" class="filter-chip is-active">Todas</button>
+          <button data-filter="portrait" class="filter-chip">Retrato</button>
+          <button data-filter="landscape" class="filter-chip">Paisagem</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-5 py-8 pb-40">
+      <p class="mb-6 max-w-2xl text-sm leading-relaxed text-cream/60">
+        Clique nas fotos que você quer no site. A seleção fica salva automaticamente no
+        navegador. Escolha entre 20 e 35 — eu cuido do resto (nomes, otimização e alt text).
+      </p>
+
+      <div
+        id="grid"
+        class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
+      >
+        {fotos.map((f: any) => (
+          <button
+            type="button"
+            data-n={f.n}
+            data-orient={f.portrait ? 'portrait' : 'landscape'}
+            class="photo-cell group relative aspect-[4/5] overflow-hidden border border-white/10"
+            aria-label={`Selecionar foto ${f.n}`}
+          >
+            <img
+              src={f.thumb}
+              alt={`Foto ${f.n}`}
+              loading="lazy"
+              decoding="async"
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+            />
+            <span class="number">{String(f.n).padStart(3, '0')}</span>
+            <span class="check">
+              <span class="tick">✓</span>
+            </span>
+          </button>
+        ))}
+      </div>
+    </main>
+
+    <div class="fixed inset-x-0 bottom-0 z-20 border-t border-white/10 bg-surface px-5 py-3">
+      <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-3">
+        <strong id="count" class="text-sm">0 selecionadas</strong>
+        <span id="hint" class="text-xs text-cream/40">clique nas fotos para marcar</span>
+        <div class="ml-auto flex flex-wrap gap-2">
+          <button id="copy" class="btn btn-gold">Copiar números</button>
+          <button id="clear" class="btn btn-ghost">Limpar</button>
+        </div>
+      </div>
+      <textarea
+        id="out"
+        readonly
+        class="mx-auto mt-2 hidden h-16 w-full max-w-7xl resize-none border border-white/15 bg-bg px-3 py-2 text-xs text-cream/70"
+        aria-label="Números selecionados"
+      ></textarea>
+    </div>
+
+    <style is:global>
+      .filter-chip {
+        border: 1px solid rgba(232, 213, 168, 0.25);
+        padding: 0.35rem 0.7rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-size: 0.65rem;
+        color: var(--color-cream);
+        transition: all 0.2s ease;
+      }
+      .filter-chip:hover {
+        border-color: var(--color-champagne);
+      }
+      .filter-chip.is-active {
+        background: var(--color-gold);
+        border-color: var(--color-gold);
+        color: #0a0a0b;
+      }
+
+      .photo-cell .number {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        background: var(--color-gold);
+        color: #0a0a0b;
+        font-size: 0.62rem;
+        font-weight: 700;
+        padding: 2px 6px;
+        letter-spacing: 0.05em;
+      }
+
+      .photo-cell .check {
+        position: absolute;
+        inset: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: rgba(10, 10, 11, 0.55);
+      }
+
+      .photo-cell .tick {
+        display: flex;
+        height: 44px;
+        width: 44px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        background: var(--color-gold);
+        color: #0a0a0b;
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+
+      .photo-cell.is-selected {
+        outline: 3px solid var(--color-gold);
+        outline-offset: -3px;
+      }
+
+      .photo-cell.is-selected .check {
+        display: flex;
+      }
+    </style>
+
+    <script>
+      const KEY = 'salu-selecao-v1';
+      const grid = document.getElementById('grid');
+      const countEl = document.getElementById('count');
+      const hintEl = document.getElementById('hint');
+      const outEl = document.getElementById('out');
+      const copyBtn = document.getElementById('copy');
+      const clearBtn = document.getElementById('clear');
+
+      let selected = new Set(JSON.parse(localStorage.getItem(KEY) || '[]'));
+
+      function save() {
+        localStorage.setItem(KEY, JSON.stringify([...selected].sort((a, b) => a - b)));
+      }
+
+      function render() {
+        document.querySelectorAll('#grid [data-n]').forEach((el) => {
+          const n = Number(el.getAttribute('data-n'));
+          el.classList.toggle('is-selected', selected.has(n));
+        });
+        const nums = [...selected].sort((a, b) => a - b);
+        countEl.textContent = `${nums.length} selecionada${nums.length === 1 ? '' : 's'}`;
+        outEl.value = nums.join(', ');
+        hintEl.textContent = nums.length >= 20 ? 'ótimo! pode copiar a lista' : 'clique nas fotos para marcar';
+      }
+
+      grid?.addEventListener('click', (event) => {
+        const btn = (event.target as Element).closest('[data-n]');
+        if (!btn) return;
+        const n = Number(btn.getAttribute('data-n'));
+        if (selected.has(n)) selected.delete(n);
+        else selected.add(n);
+        save();
+        render();
+      });
+
+      copyBtn?.addEventListener('click', async () => {
+        outEl.classList.remove('hidden');
+        const text = outEl.value;
+        try {
+          await navigator.clipboard.writeText(text);
+          copyBtn.textContent = 'Copiado!';
+          setTimeout(() => (copyBtn.textContent = 'Copiar números'), 1600);
+        } catch {
+          outEl.focus();
+          outEl.select();
+        }
+      });
+
+      clearBtn?.addEventListener('click', () => {
+        if (!confirm('Limpar toda a seleção?')) return;
+        selected.clear();
+        save();
+        render();
+      });
+
+      document.querySelectorAll('[data-filter]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          document.querySelectorAll('#grid [data-orient]').forEach((el) => {
+            const orient = el.getAttribute('data-orient');
+            (el as HTMLElement).style.display =
+              filter === 'all' || orient === filter ? '' : 'none';
+          });
+          document.querySelectorAll('[data-filter]').forEach((x) => {
+            x.classList.toggle('is-active', x === btn);
+          });
+        });
+      });
+
+      render();
+    </script>
+  </body>
+</html>

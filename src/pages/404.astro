@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<Base title="Página não encontrada | Salu Produções">
+  <Header />
+
+  <main class="flex min-h-[80svh] items-center px-6 pt-36">
+    <div class="mx-auto max-w-xl text-center">
+      <p class="label mb-4">404</p>
+      <h1 class="font-display text-[clamp(2.2rem,5vw,3.6rem)] leading-tight">
+        Essa página não existe.
+      </h1>
+      <p class="mt-6 text-cream/60">Talvez o link esteja errado ou a página tenha mudado.</p>
+      <a href="/" class="btn btn-gold mt-10">Voltar ao início</a>
+    </div>
+  </main>
+
+  <Footer />
+</Base>

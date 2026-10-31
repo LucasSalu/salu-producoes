@@ -1,0 +1,17 @@
+# Dependências e build
+node_modules/
+dist/
+.astro/
+.pnpm-store/
+
+# Perfis temporários de navegador (testes automatizados)
+.chrome-*/
+
+# Acervo original e materiais internos — NÃO versionar (788 MB)
+melhores fotos/
+selecao/
+Pacotes Oficial Casamento 2026*.pdf
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WhatsAppFloat from '../components/layout/WhatsAppFloat.astro';
+import { LINKS } from '../consts';
+---
+
+<Base
+  title="Filmes | Salu Produções"
+  description="Filmes de casamento da Salu Produções: teaser, cerimônia e festa."
+>
+  <Header />
+
+  <main class="pt-36">
+    <section class="px-6 pb-16">
+      <div class="mx-auto max-w-7xl">
+        <p class="label mb-4">Filmes</p>
+        <h1 class="text-balance font-display text-[clamp(2.4rem,5vw,4.2rem)] leading-tight">
+          Para reviver, não só lembrar.
+        </h1>
+        <p class="mt-5 max-w-xl text-cream/60">
+          O vídeo guarda o que a foto não alcança: a voz, o riso, o silêncio antes do "sim".
+        </p>
+      </div>
+    </section>
+
+    <section class="px-6 pb-24">
+      <div class="mx-auto grid max-w-7xl gap-5 md:grid-cols-2">
+        {[1, 2].map(() => (
+          <div
+            class="relative flex aspect-video items-center justify-center border border-white/10 bg-surface/60"
+          >
+            <div class="text-center">
+              <span
+                class="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-champagne/40"
+              >
+                <svg viewBox="0 0 24 24" class="ml-1 h-5 w-5 fill-current text-champagne" aria-hidden="true">
+                  <path d="M8 5v14l11-7z"></path>
+                </svg>
+              </span>
+              <p class="mt-4 text-xs uppercase tracking-[0.16em] text-cream/40">
+                Filme em breve
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="mx-auto mt-14 max-w-7xl text-center">
+        <p class="text-cream/60">Quer foto e filme no mesmo dia?</p>
+        <div class="mt-6 flex flex-wrap justify-center gap-4">
+          <a href="/pacotes" class="btn btn-gold">Ver pacotes</a>
+          <a href={LINKS.whatsapp} target="_blank" rel="noopener" class="btn btn-ghost">
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  <WhatsAppFloat />
+</Base>

@@ -1,0 +1,180 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WhatsAppFloat from '../components/layout/WhatsAppFloat.astro';
+import { CONTACT, LINKS } from '../consts';
+---
+
+<Base
+  title="Orçamento | Salu Produções"
+  description="Solicite um orçamento de fotografia e filme de casamento com a Salu Produções."
+>
+  <Header />
+
+  <main class="pt-36">
+    <section class="px-6 pb-24">
+      <div class="mx-auto grid max-w-6xl gap-14 md:grid-cols-[1fr_1.15fr]">
+        <div>
+          <p class="label mb-4">Orçamento</p>
+          <h1 class="font-display text-[clamp(2.2rem,4.5vw,3.4rem)] leading-tight">
+            Conte sobre o seu casamento.
+          </h1>
+          <p class="mt-5 text-cream/60">
+            Respondemos em até 24 h úteis. A primeira conversa é gratuita e sem compromisso.
+          </p>
+
+          <div class="gold-line my-8"></div>
+
+          <p class="label mb-2">Prefere falar agora?</p>
+          <a
+            href={LINKS.whatsapp}
+            target="_blank"
+            rel="noopener"
+            class="text-champagne hover:opacity-70"
+          >
+            WhatsApp {CONTACT.whatsappDisplay}
+          </a>
+        </div>
+
+        <form id="orcamento-form" class="grid gap-5 sm:grid-cols-2">
+          <label class="sm:col-span-2">
+            <span class="label">Nome</span>
+            <input
+              name="nome"
+              required
+              autocomplete="name"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            />
+          </label>
+
+          <label>
+            <span class="label">E-mail</span>
+            <input
+              name="email"
+              type="email"
+              required
+              autocomplete="email"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            />
+          </label>
+
+          <label>
+            <span class="label">WhatsApp</span>
+            <input
+              name="whatsapp"
+              type="tel"
+              required
+              autocomplete="tel"
+              placeholder="(00) 00000-0000"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            />
+          </label>
+
+          <label>
+            <span class="label">Data do casamento</span>
+            <input
+              name="data"
+              type="date"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            />
+          </label>
+
+          <label>
+            <span class="label">Cidade / local</span>
+            <input
+              name="cidade"
+              required
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            />
+          </label>
+
+          <label>
+            <span class="label">Convidados</span>
+            <select
+              name="convidados"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            >
+              <option>Até 50</option>
+              <option>51 a 100</option>
+              <option>101 a 200</option>
+              <option>Mais de 200</option>
+            </select>
+          </label>
+
+          <label>
+            <span class="label">Pacote de interesse</span>
+            <select
+              name="pacote"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            >
+              <option>Ainda não sei</option>
+              <option>Bronze</option>
+              <option>Prata</option>
+              <option>Ouro</option>
+              <option>Promoção</option>
+            </select>
+          </label>
+
+          <label>
+            <span class="label">Quer filme?</span>
+            <select
+              name="filme"
+              class="mt-2 w-full border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            >
+              <option>Talvez</option>
+              <option>Sim</option>
+              <option>Não</option>
+            </select>
+          </label>
+
+          <label class="sm:col-span-2">
+            <span class="label">Conte sobre o casamento</span>
+            <textarea
+              name="mensagem"
+              rows="4"
+              class="mt-2 w-full resize-none border border-white/15 bg-surface px-4 py-3 text-cream outline-none transition-colors focus:border-gold"
+            ></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-gold sm:col-span-2">
+            Enviar pelo WhatsApp
+          </button>
+          <p class="text-xs text-cream/40 sm:col-span-2">
+            Ao enviar, você será direcionado ao WhatsApp com a mensagem pronta. Seus dados
+            não são armazenados neste site.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const form = document.getElementById('orcamento-form');
+    if (form instanceof HTMLFormElement) {
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const data = new FormData(form);
+        const get = (key: string) => String(data.get(key) ?? '').trim();
+        const message = [
+          'Olá! Quero um orçamento para meu casamento.',
+          '',
+          `Nome: ${get('nome')}`,
+          `E-mail: ${get('email')}`,
+          `WhatsApp: ${get('whatsapp')}`,
+          `Data do casamento: ${get('data')}`,
+          `Cidade: ${get('cidade')}`,
+          `Convidados: ${get('convidados')}`,
+          `Pacote: ${get('pacote')}`,
+          `Filme: ${get('filme')}`,
+          '',
+          `Sobre o casamento: ${get('mensagem')}`,
+        ].join('\n');
+        window.location.href = `https://wa.me/5519993520172?text=${encodeURIComponent(message)}`;
+      });
+    }
+  </script>
+
+  <Footer />
+  <WhatsAppFloat />
+</Base>

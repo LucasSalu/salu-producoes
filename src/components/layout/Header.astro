@@ -1,0 +1,67 @@
+---
+import { NAV, LINKS, SITE } from '../../consts';
+---
+
+<header id="site-header" class="site-header fixed inset-x-0 top-0 z-50">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <a href="/" class="flex items-center gap-3" aria-label={SITE.name}>
+      <svg viewBox="0 0 64 64" class="h-8 w-8" aria-hidden="true">
+        <g fill="var(--color-gold)" transform="translate(32 32)">
+          <path d="M0-23 L4.6-5.6 L23 0 L4.6 5.6 L0 23 L-4.6 5.6 L-23 0 L-4.6-5.6 Z"></path>
+          <path
+            d="M0-23 L4.6-5.6 L23 0 L4.6 5.6 L0 23 L-4.6 5.6 L-23 0 L-4.6-5.6 Z"
+            transform="rotate(45)"></path>
+        </g>
+      </svg>
+      <span class="font-display text-lg tracking-wide">Salu Produções</span>
+    </a>
+
+    <nav class="hidden items-center gap-8 md:flex" aria-label="Navegação principal">
+      {NAV.map((item) => (
+        <a href={item.href} class="label transition-opacity hover:opacity-70">
+          {item.label}
+        </a>
+      ))}
+      <a href="/orcamento" class="btn btn-gold">Orçamento</a>
+    </nav>
+
+    <details class="mobile-menu relative md:hidden">
+      <summary aria-label="Abrir menu">
+        <svg
+          viewBox="0 0 24 24"
+          class="h-7 w-7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <path d="M4 7h16M4 12h16M4 17h16"></path>
+        </svg>
+      </summary>
+
+      <div
+        class="absolute right-0 top-full mt-3 w-60 border border-white/10 p-5"
+        style="background: rgba(10, 10, 11, 0.96); backdrop-filter: blur(16px);"
+      >
+        <nav class="flex flex-col gap-1" aria-label="Navegação mobile">
+          {NAV.map((item) => (
+            <a href={item.href} class="label py-2.5 transition-colors hover:text-champagne">
+              {item.label}
+            </a>
+          ))}
+          <div class="my-3 h-px w-full bg-white/10"></div>
+          <a href="/orcamento" class="btn btn-gold w-full">Orçamento</a>
+          <a
+            href={LINKS.whatsapp}
+            target="_blank"
+            rel="noopener"
+            class="label mt-3 py-2 text-center text-champagne"
+          >
+            WhatsApp
+          </a>
+        </nav>
+      </div>
+    </details>
+  </div>
+</header>

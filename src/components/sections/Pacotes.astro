@@ -1,0 +1,145 @@
+---
+const fotos = [
+  {
+    nome: 'Bronze',
+    preco: 'R$ 1.990',
+    nota: '10× R$ 199 · à vista R$ 1.790',
+    itens: [
+      'Cobertura do casamento e festa',
+      'Seleção e edição premium',
+      'Galeria online + pendrive personalizado',
+    ],
+    destaque: false,
+  },
+  {
+    nome: 'Prata',
+    preco: 'R$ 3.500',
+    nota: '10× R$ 350 · à vista R$ 3.000',
+    itens: [
+      'Dia da noiva + cerimônia + festa',
+      'Seleção e edição premium',
+      'Mini álbum',
+      'Galeria online + pendrive',
+    ],
+    destaque: false,
+  },
+  {
+    nome: 'Ouro',
+    preco: 'R$ 4.700',
+    nota: '10× R$ 470 · à vista R$ 4.199',
+    itens: [
+      'Dia da noiva + noivo',
+      'Álbum de fotos premium',
+      'Sessão pré-wedding',
+      'Galeria online + pendrive',
+    ],
+    destaque: true,
+  },
+  {
+    nome: 'Promoção',
+    preco: 'R$ 1.999',
+    nota: 'de R$ 3.000 · oferta de entrada',
+    itens: ['Pré-wedding', 'Making of', 'Cerimônia', 'Festa'],
+    destaque: false,
+  },
+];
+
+const filmes = [
+  {
+    nome: 'Filme Essencial',
+    preco: 'R$ 2.400',
+    itens: ['Teaser de 3–5 min', 'Cerimônia', '1 câmera + áudio dedicado'],
+  },
+  {
+    nome: 'Filme Completo',
+    preco: 'R$ 4.200',
+    itens: ['Cerimônia + festa', '2 câmeras + áudio', 'Filme de 15–30 min + teaser'],
+  },
+  {
+    nome: 'Combo Ouro + Filme',
+    preco: 'R$ 7.590',
+    itens: ['Pacote Ouro completo', 'Filme Completo', '15% de desconto'],
+  },
+];
+---
+
+<section id="pacotes" class="px-6 py-24 md:py-32">
+  <div class="mx-auto max-w-7xl">
+    <p class="label mb-4">03 — Pacotes</p>
+    <h2 class="text-balance font-display text-[clamp(2.2rem,5vw,4rem)] leading-[1.02] tracking-[-0.01em]">
+      Escolha o jeito de guardar o seu dia.
+    </h2>
+    <p class="mt-5 max-w-2xl text-cream/60">
+      Os valores variam conforme data, local e duração. Os pacotes acima são o ponto de
+      partida — o orçamento final é feito sob medida para o seu casamento.
+    </p>
+
+    <div class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {fotos.map((p) => (
+        <article
+          class:list={[
+            'relative flex flex-col border p-7 transition-colors',
+            p.destaque
+              ? 'border-gold/60 bg-card'
+              : 'border-white/10 bg-surface/60 hover:border-champagne/30',
+          ]}
+        >
+          {p.destaque && (
+            <span
+              class="absolute -top-3 left-7 px-3 py-1 text-[0.6rem] uppercase tracking-[0.18em]"
+              style="background: var(--color-gold); color: #0a0a0b;"
+            >
+              Mais escolhido
+            </span>
+          )}
+          <h3 class="font-display text-2xl">{p.nome}</h3>
+          <p class="mt-5 flex items-baseline gap-2">
+            <span class="font-sans text-[0.65rem] uppercase tracking-[0.2em] text-champagne">
+              {p.preco.split(' ')[0]}
+            </span>
+            <span class="font-display text-4xl leading-none">
+              {p.preco.split(' ').slice(1).join(' ')}
+            </span>
+          </p>
+          <p class="mt-2 text-xs uppercase tracking-[0.12em] text-cream/40">{p.nota}</p>
+          <ul class="mt-6 flex-1 space-y-3 text-sm text-cream/70">
+            {p.itens.map((item) => (
+              <li class="flex gap-3">
+                <span class="mt-2 h-px w-3 shrink-0" style="background: var(--color-champagne);" />
+                {item}
+              </li>
+            ))}
+          </ul>
+          <a href="/orcamento" class="btn btn-ghost mt-8 w-full">Quero este</a>
+        </article>
+      ))}
+    </div>
+
+    <div class="gold-line my-16"></div>
+
+    <h3 class="font-display text-2xl">Filme — para reviver, não só lembrar</h3>
+    <div class="mt-8 grid gap-5 md:grid-cols-3">
+      {filmes.map((f) => (
+        <article class="flex flex-col border border-white/10 bg-surface/60 p-7">
+          <h4 class="font-display text-xl">{f.nome}</h4>
+          <p class="mt-3 flex items-baseline gap-2">
+            <span class="font-sans text-[0.6rem] uppercase tracking-[0.2em] text-champagne">
+              {f.preco.split(' ')[0]}
+            </span>
+            <span class="font-display text-3xl leading-none">
+              {f.preco.split(' ').slice(1).join(' ')}
+            </span>
+          </p>
+          <ul class="mt-5 flex-1 space-y-2 text-sm text-cream/70">
+            {f.itens.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+          <a href="/orcamento" class="mt-7 text-xs uppercase tracking-[0.16em] text-champagne hover:opacity-70">
+            Adicionar ao orçamento →
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

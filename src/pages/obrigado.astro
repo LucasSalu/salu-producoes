@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WhatsAppFloat from '../components/layout/WhatsAppFloat.astro';
+import { LINKS } from '../consts';
+---
+
+<Base title="Obrigado | Salu Produções" description="Recebemos o seu pedido de orçamento.">
+  <Header />
+
+  <main class="flex min-h-[80svh] items-center px-6 pt-36">
+    <div class="mx-auto max-w-xl text-center">
+      <p class="label mb-4">Recebido</p>
+      <h1 class="text-balance font-display text-[clamp(2.2rem,5vw,3.6rem)] leading-tight">
+        Obrigado! Vamos cuidar do seu dia.
+      </h1>
+      <p class="mt-6 text-cream/60">
+        Recebemos o seu pedido e respondemos em até 24 h úteis. Se quiser adiantar, chame no
+        WhatsApp.
+      </p>
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+        <a href={LINKS.whatsapp} target="_blank" rel="noopener" class="btn btn-gold">
+          Falar no WhatsApp
+        </a>
+        <a href="/" class="btn btn-ghost">Voltar ao início</a>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+  <WhatsAppFloat />
+</Base>

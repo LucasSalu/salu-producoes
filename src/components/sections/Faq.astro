@@ -1,0 +1,58 @@
+---
+const perguntas = [
+  {
+    q: 'Com quanto tempo de antecedência devo reservar?',
+    a: 'Datas de outubro a dezembro costumam fechar primeiro. O ideal é conversar assim que a data estiver definida — mas fale com a gente mesmo em cima da hora, às vezes há uma data aberta.',
+  },
+  {
+    q: 'Vocês atendem fora de Paulínia?',
+    a: 'Sim. Atendemos Paulínia e todo o estado de São Paulo. Para outras regiões, o deslocamento entra no orçamento.',
+  },
+  {
+    q: 'Quanto tempo leva para receber as fotos?',
+    a: 'O prazo é definido em contrato e varia conforme o pacote. A galeria online é liberada antes da entrega do álbum.',
+  },
+  {
+    q: 'O que está incluso nos pacotes?',
+    a: 'Todos incluem seleção e edição premium, galeria online e pendrive personalizado. A partir do Prata entra o mini álbum; no Ouro, álbum premium e sessão pré-wedding.',
+  },
+  {
+    q: 'Dá para contratar foto e filme juntos?',
+    a: 'Sim — e sai mais barato. O combo Ouro + Filme Completo tem 15% de desconto sobre a contratação separada.',
+  },
+  {
+    q: 'Como funciona o pagamento?',
+    a: 'Em até 10× no cartão ou à vista com desconto. O contrato define o sinal e as parcelas.',
+  },
+  {
+    q: 'Posso montar um pacote personalizado?',
+    a: 'Sim. Mande a data e o que vocês imaginam pelo WhatsApp que a gente monta uma proposta sob medida.',
+  },
+];
+---
+
+<section id="faq" class="px-6 py-24 md:py-32">
+  <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-[0.8fr_1.2fr]">
+    <div data-reveal>
+      <p class="label mb-4">05 — Dúvidas</p>
+      <h2 class="text-balance font-display text-[clamp(2.2rem,5vw,4rem)] leading-[1.02] tracking-[-0.01em]">
+        Perguntas que todo casal faz.
+      </h2>
+      <p class="mt-5 text-sm leading-relaxed text-cream/60">
+        Não achou a sua? Chama no WhatsApp — respondemos em até 24 h úteis.
+      </p>
+    </div>
+
+    <div class="divide-y divide-white/10 border-y border-white/10" data-reveal-group>
+      {perguntas.map((item) => (
+        <details class="faq group py-5">
+          <summary class="flex cursor-pointer items-center justify-between gap-6 text-left">
+            <span class="font-display text-lg leading-snug">{item.q}</span>
+            <span class="faq-icon text-2xl leading-none text-gold transition-transform">+</span>
+          </summary>
+          <p class="mt-4 max-w-2xl text-sm leading-relaxed text-cream/60">{item.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

@@ -10,10 +10,12 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 | Pacote | Tempo | Looks | Fotos editadas | Entregáveis | Preço |
 | --- | --- | --- | --- | --- | --- |
-| **Presente** *(isca)* | 15 min | 1 | 8 | galeria online | **R$ 199** |
-| **Brilho** | 25 min | 1 | 12 | galeria online | **R$ 290** |
-| **Memória** | 45 min | 2 | 25 | galeria + 5 impressões 15×21 | **R$ 490** |
-| **Família** | 60 min | 1 | 35 | galeria + álbum 20×20 | **R$ 790** |
+| **Presente** *(isca)* | 15 min | 1 | 8 | galeria online | **R$ 350** |
+| **Brilho** | 25 min | 1 | 12 | galeria + **5 impressões 15×21** | **R$ 490** |
+| **Memória** | 45 min | 2 | 25 | galeria + 5 impressões 15×21 | **R$ 690** |
+| **Família** | 60 min | 1 | 35 | galeria + álbum 20×20 | **R$ 990** |
+
+> **Brilho reforçado:** 1 look, mas **2 estilos de foto** — com a luz de Natal (festivo) e com luz suave (clássico) — **mais 5 impressões**. É o que o separa do Presente.
 
 **Para quem é cada um:**
 
@@ -26,7 +28,7 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 ## 2. O que está incluso em todos
 
-- Sessão no estúdio (quarto montado, 1 cenário de Natal)
+- Sessão no estúdio da Salu (1 cenário de Natal)
 - Direção de poses (ninguém fica sem saber o que fazer)
 - Seleção e **edição premium** das fotos
 - Galeria online privada por 30 dias
@@ -40,16 +42,16 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 | Item | Preço |
 | --- | --- |
-| Foto extra editada | R$ 18 |
-| Look extra | R$ 80 |
-| Pessoa extra (acima de 5) | R$ 40 |
-| Maquiagem (parceira) | R$ 180 |
-| Álbum 20×20 | R$ 250 |
-| Quadro 30×40 | R$ 180 |
+| Foto extra editada | R$ 25 |
+| Look extra | R$ 100 |
+| Pessoa extra (acima de 5) | R$ 50 |
+| Maquiagem (parceira) | R$ 200 |
+| Álbum 20×20 | R$ 300 |
+| Quadro 30×40 | R$ 220 |
 | Vídeo vertical 30 s (reels) | R$ 250 |
-| Antecipação de entrega (24 h) | R$ 60 |
+| Antecipação de entrega (24 h) | R$ 80 |
 
-> O "Presente" (R$ 199) é desenhado para upselling: 8 fotos é pouco — foto extra a R$ 18 e upgrade para o Brilho são o próximo passo natural.
+> O "Presente" (R$ 350) é desenhado para upselling: 8 fotos é pouco — foto extra a R$ 25 e upgrade para o Brilho são o próximo passo natural.
 
 ---
 
@@ -57,7 +59,7 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 | Regra | Valor |
 | --- | --- |
-| **Sinal para reservar** | R$ 80 (Pix) — data só é garantida após o sinal |
+| **Sinal para reservar** | R$ 100 (Pix) — data só é garantida após o sinal |
 | **Restante** | até o dia da sessão |
 | À vista | 10% de desconto |
 | Parcelado | 3× sem juros (cartão) |
@@ -101,9 +103,9 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 | Regra | Detalhe |
 | --- | --- |
 | Limite | 10 primeiras sessões |
-| Benefício | 15% de desconto **ou** 3 fotos extras |
-| Condição | Ter respondido a caixinha de perguntas do stories |
-| Prazo | ⚠️ até [data real] |
+| Benefício | **Preço de lançamento já aplicado** (R$ 350 / 490 / 690 / 990) — depois sobe para R$ 450 / 590 / 790 / 1.090 |
+| Condição | Nenhuma — vale para as 10 primeiras que reservarem |
+| Prazo | ⚠️ até [data real] ou enquanto houver vaga |
 
 ---
 
@@ -115,10 +117,10 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 > O Natal também. 🎄
 >
 > Estreando o estúdio da Salu com ensaios de Natal:
-> ✨ Presente — R$ 199
-> ✨ Brilho — R$ 290
-> ✨ Memória — R$ 490
-> ✨ Família — R$ 790
+> ✨ Presente — R$ 350
+> ✨ Brilho — R$ 490
+> ✨ Memória — R$ 690
+> ✨ Família — R$ 990
 >
 > As 10 primeiras sessões têm preço de inauguração.
 > Reserva pelo WhatsApp → link na bio.
@@ -138,9 +140,9 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 | 1 | Prazo de entrega das fotos | 3–5 dias úteis |
 | 2 | Último dia de sessão com garantia para 24/12 | 20/12 |
 | 3 | Data final da oferta de inauguração | 30/11 (ou até fechar as 10) |
-| 4 | Valor do sinal | R$ 80 |
+| 4 | Valor do sinal | R$ 100 |
 | 5 | Confirmar preços dos adicionais | como na tabela |
 
 ---
 
-> Depois que você confirmar os 5 pontos, eu monto a página `/natal` no site com esses pacotes em cards.
+> Página `/natal` publicada no site com esses pacotes e o bloco de vale-presente.

@@ -1,0 +1,348 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WhatsAppFloat from '../components/layout/WhatsAppFloat.astro';
+import { CONTACT } from '../consts';
+
+const wa = (msg: string) =>
+  `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(msg)}`;
+
+const pacotes = [
+  {
+    nome: 'Presente',
+    preco: 'R$ 350',
+    depois: 'R$ 450',
+    tempo: '15 min',
+    itens: ['1 look · 1 cenário', '8 fotos editadas', 'galeria online'],
+    destaque: false,
+  },
+  {
+    nome: 'Brilho',
+    preco: 'R$ 490',
+    depois: 'R$ 590',
+    tempo: '25 min',
+    itens: ['1 look · 2 climas de luz', '12 fotos editadas', 'galeria online'],
+    destaque: false,
+  },
+  {
+    nome: 'Memória',
+    preco: 'R$ 690',
+    depois: 'R$ 790',
+    tempo: '45 min',
+    itens: ['2 looks', '25 fotos editadas', '5 impressões 15×21', 'galeria online'],
+    destaque: true,
+  },
+  {
+    nome: 'Família',
+    preco: 'R$ 990',
+    depois: 'R$ 1.090',
+    tempo: '60 min',
+    itens: ['até 5 pessoas', '35 fotos editadas', 'álbum 20×20', 'galeria online'],
+    destaque: false,
+  },
+];
+
+const passos = [
+  { n: '01', t: 'Reserva', d: 'Sinal de R$ 100 no Pix garante a sua data.' },
+  { n: '02', t: 'Sessão', d: 'Você só chega e sorri — eu dirijo as poses.' },
+  { n: '03', t: 'Escolha', d: 'Galeria online para escolher as favoritas.' },
+  { n: '04', t: 'Entrega', d: 'Em até 5 dias úteis, prontas para o Natal.' },
+];
+
+const faq = [
+  {
+    q: 'Onde é o estúdio?',
+    a: 'O estúdio da Salu fica em Paulínia. Após a reserva, envio o endereço completo e as instruções de chegada.',
+  },
+  {
+    q: 'O que eu visto?',
+    a: 'Envio um guia do que vestir após a reserva. Resumo: tons neutros e um look festivo para variar.',
+  },
+  {
+    q: 'Posso levar meu pet?',
+    a: 'Pode! Pet é muito bem-vindo — é um dos pedidos que mais recebi. Tem adicional de R$ 60.',
+  },
+  {
+    q: 'Consigo para antes do Natal?',
+    a: 'Sim: sessões até 20/12 têm entrega garantida antes do dia 24.',
+  },
+];
+---
+
+<Base
+  title="Ensaio de Natal | Estúdio Salu Produções"
+  description="Ensaio de Natal no estúdio da Salu Produções em Paulínia. Pacotes a partir de R$ 350, com entrega garantida antes do Natal."
+>
+  <Header />
+
+  <main>
+    <!-- HERO -->
+    <section class="grain relative flex min-h-[92svh] items-end overflow-hidden">
+      <img
+        src="/fotos/070-1600.webp"
+        srcset="/fotos/070-480.webp 480w, /fotos/070-960.webp 960w, /fotos/070-1600.webp 1600w"
+        sizes="100vw"
+        alt="Casal sob sparklers no casamento"
+        class="absolute inset-0 h-full w-full object-cover object-[50%_38%]"
+        fetchpriority="high"
+        decoding="async"
+      />
+      <div
+        class="absolute inset-0"
+        style="background: linear-gradient(180deg, rgba(10,10,11,.7) 0%, rgba(10,10,11,.35) 40%, rgba(10,10,11,.92) 100%);"
+      >
+      </div>
+
+      <div class="relative mx-auto w-full max-w-[1400px] px-6 pb-24 pt-40">
+        <p class="label mb-6" data-reveal>Estúdio Salu · Ensaio de Natal · Paulínia</p>
+        <h1
+          class="max-w-4xl text-balance font-display text-[clamp(2.6rem,7vw,5.6rem)] leading-[0.98] tracking-[-0.02em]"
+          data-reveal
+        >
+          O olhar do casamento,<br />agora no Natal.
+        </h1>
+        <p class="mt-7 max-w-xl text-lg leading-relaxed text-cream/70" data-reveal>
+          Um ensaio intimista no estúdio que montei com carinho, para registrar o que
+          realmente importa: as pessoas que estão com você.
+        </p>
+        <div class="mt-10 flex flex-wrap gap-4" data-reveal>
+          <a href={wa('Olá! Quero reservar meu ensaio de Natal 🎄')} target="_blank" rel="noopener" class="btn btn-gold">
+            Reservar pelo WhatsApp
+          </a>
+          <a href="#pacotes" class="btn btn-ghost">Ver pacotes</a>
+        </div>
+        <p class="mt-8 text-sm text-cream/50" data-reveal>
+          Inauguração do estúdio · <strong class="text-champagne">10 primeiras sessões</strong> com preço especial
+        </p>
+      </div>
+    </section>
+
+    <!-- PROVA -->
+    <section class="border-y border-white/10 px-6 py-10">
+      <div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 text-center md:grid-cols-4" data-reveal-group>
+        {[
+          ['4 anos', 'fotografando casamentos'],
+          ['Estúdio', 'montado em Paulínia'],
+          ['Até 5 dias', 'para receber as fotos'],
+          ['10 vagas', 'com preço de inauguração'],
+        ].map(([titulo, sub]) => (
+          <div>
+            <p class="font-display text-2xl text-champagne md:text-3xl">{titulo}</p>
+            <p class="mt-1 text-xs uppercase tracking-[0.14em] text-cream/50">{sub}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="px-6 py-24 md:py-28">
+      <div class="mx-auto max-w-7xl">
+        <p class="label mb-4" data-reveal>Por que aqui</p>
+        <h2 class="max-w-2xl text-balance font-display text-[clamp(2rem,4.4vw,3.4rem)] leading-tight" data-reveal>
+          Mais que uma foto.<br />Um momento gostoso.
+        </h2>
+
+        <div class="mt-14 grid gap-5 md:grid-cols-3" data-reveal-group>
+          <article class="border border-white/10 bg-surface/60 p-7">
+            <p class="font-display text-4xl text-gold/70">01</p>
+            <h3 class="mt-6 font-display text-xl">Ninguém fica perdido</h3>
+            <p class="mt-3 text-sm leading-relaxed text-cream/60">
+              Eu dirijo cada pose. Você só precisa estar com quem ama.
+            </p>
+          </article>
+          <article class="border border-white/10 bg-surface/60 p-7">
+            <p class="font-display text-4xl text-gold/70">02</p>
+            <h3 class="mt-6 font-display text-xl">Dois looks, dois climas</h3>
+            <p class="mt-3 text-sm leading-relaxed text-cream/60">
+              Um cenário, mas luz e roupa diferentes: parece dois ensaios em um.
+            </p>
+          </article>
+          <article class="border border-white/10 bg-surface/60 p-7">
+            <p class="font-display text-4xl text-gold/70">03</p>
+            <h3 class="mt-6 font-display text-xl">Pronto antes do Natal</h3>
+            <p class="mt-3 text-sm leading-relaxed text-cream/60">
+              Entrega em até 5 dias úteis para presentear e postar no dia 24.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACOTES -->
+    <section id="pacotes" class="px-6 py-24 md:py-28" style="background: var(--color-surface);">
+      <div class="mx-auto max-w-7xl">
+        <p class="label mb-4" data-reveal>Pacotes</p>
+        <h2 class="max-w-2xl text-balance font-display text-[clamp(2rem,4.4vw,3.4rem)] leading-tight" data-reveal>
+          Escolha o tamanho da memória.
+        </h2>
+        <p class="mt-5 max-w-2xl text-cream/60" data-reveal>
+          Preço de inauguração válido para as 10 primeiras sessões. Depois, a tabela sobe.
+        </p>
+
+        <div class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4" data-reveal-group>
+          {pacotes.map((p) => (
+            <article
+              class:list={[
+                'relative flex flex-col border p-7',
+                p.destaque ? 'border-gold/60 bg-card' : 'border-white/10 bg-bg/40',
+              ]}
+            >
+              {p.destaque && (
+                <span
+                  class="absolute -top-3 left-7 px-3 py-1 text-[0.6rem] uppercase tracking-[0.18em]"
+                  style="background: var(--color-gold); color: #0a0a0b;"
+                >
+                  Mais escolhido
+                </span>
+              )}
+              <p class="label">{p.tempo}</p>
+              <h3 class="mt-3 font-display text-2xl">{p.nome}</h3>
+              <p class="mt-5 flex items-baseline gap-2">
+                <span class="font-sans text-[0.6rem] uppercase tracking-[0.2em] text-champagne">R$</span>
+                <span class="font-display text-4xl leading-none">{p.preco.replace('R$ ', '')}</span>
+              </p>
+              <p class="mt-2 text-xs uppercase tracking-[0.12em] text-cream/40">
+                lançamento · depois {p.depois}
+              </p>
+              <ul class="mt-6 flex-1 space-y-3 text-sm text-cream/70">
+                {p.itens.map((item) => (
+                  <li class="flex gap-3">
+                    <span class="mt-2 h-px w-3 shrink-0" style="background: var(--color-champagne);"></span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={wa(`Olá! Quero reservar o pacote ${p.nome} do ensaio de Natal 🎄`)}
+                target="_blank"
+                rel="noopener"
+                class:list={['btn mt-8 w-full', p.destaque ? 'btn-gold' : 'btn-ghost']}
+              >
+                Quero este
+              </a>
+            </article>
+          ))}
+        </div>
+
+        <p class="mt-10 text-center text-sm text-cream/50" data-reveal>
+          Adicionais: foto extra R$ 25 · look extra R$ 100 · pet R$ 60 · maquiagem R$ 200 ·
+          álbum R$ 300 · vídeo 30 s R$ 250
+        </p>
+      </div>
+    </section>
+
+    <!-- VALE PRESENTE -->
+    <section class="px-6 py-24 md:py-28">
+      <div class="mx-auto grid max-w-7xl items-center gap-14 md:grid-cols-2">
+        <div class="relative overflow-hidden" data-reveal>
+          <img
+            src="/fotos/205-960.webp"
+            srcset="/fotos/205-480.webp 480w, /fotos/205-960.webp 960w"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            alt="Casal sob o véu, em preto e branco"
+            class="aspect-[4/5] w-full object-cover object-[50%_18%]"
+            loading="lazy"
+            decoding="async"
+          />
+          <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-champagne/15"></div>
+        </div>
+
+        <div data-reveal>
+          <p class="label mb-4">Vale-presente</p>
+          <h2 class="text-balance font-display text-[clamp(2rem,4.4vw,3.4rem)] leading-tight">
+            O presente que<br />não vence no dia 26.
+          </h2>
+          <p class="mt-6 leading-relaxed text-cream/70">
+            Em vez de mais um objeto, dê uma memória. O vale pode ser usado por quem você
+            presentear, em até 6 meses — com cartão impresso e envelope.
+          </p>
+          <ul class="mt-6 space-y-2 text-sm text-cream/60">
+            <li>· Válido para qualquer pacote</li>
+            <li>· Cartão físico + envelope</li>
+            <li>· A pessoa escolhe a data</li>
+          </ul>
+          <a
+            href={wa('Olá! Quero comprar um vale-presente do ensaio de Natal 🎁')}
+            target="_blank"
+            rel="noopener"
+            class="btn btn-gold mt-9"
+          >
+            Quero dar de presente
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="px-6 py-24 md:py-28">
+      <div class="mx-auto max-w-7xl">
+        <p class="label mb-4" data-reveal>Como funciona</p>
+        <h2 class="max-w-2xl text-balance font-display text-[clamp(2rem,4.4vw,3.4rem)] leading-tight" data-reveal>
+          Simples do começo ao fim.
+        </h2>
+        <div class="mt-14 grid gap-px border border-white/10 bg-white/10 sm:grid-cols-2 lg:grid-cols-4" data-reveal-group>
+          {passos.map((p) => (
+            <article class="bg-bg p-6">
+              <p class="font-display text-4xl text-gold/70">{p.n}</p>
+              <h3 class="mt-6 font-display text-xl">{p.t}</h3>
+              <p class="mt-3 text-sm leading-relaxed text-cream/60">{p.d}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="px-6 py-24 md:py-28">
+      <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-[0.8fr_1.2fr]">
+        <div data-reveal>
+          <p class="label mb-4">Dúvidas</p>
+          <h2 class="text-balance font-display text-[clamp(2rem,4vw,3.2rem)] leading-tight">
+            Perguntas frequentes.
+          </h2>
+        </div>
+        <div class="divide-y divide-white/10 border-y border-white/10" data-reveal-group>
+          {faq.map((item) => (
+            <details class="faq group py-5">
+              <summary class="flex cursor-pointer items-center justify-between gap-6 text-left">
+                <span class="font-display text-lg leading-snug">{item.q}</span>
+                <span class="faq-icon text-2xl leading-none text-gold transition-transform">+</span>
+              </summary>
+              <p class="mt-4 max-w-2xl text-sm leading-relaxed text-cream/60">{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="px-6 py-28 text-center md:py-36" style="background: var(--color-surface);">
+      <div class="mx-auto max-w-3xl" data-reveal>
+        <p class="label mb-6">Últimas vagas de dezembro</p>
+        <h2 class="text-balance font-display text-[clamp(2.2rem,5.2vw,4.2rem)] leading-[1.02]">
+          O Natal passa.<br />A foto fica.
+        </h2>
+        <p class="mx-auto mt-8 max-w-xl text-cream/60">
+          Sessões até 20/12 com entrega garantida antes do dia 24.
+        </p>
+        <div class="mt-12 flex flex-wrap justify-center gap-4">
+          <a href={wa('Olá! Quero garantir uma das últimas vagas do ensaio de Natal 🎄')} target="_blank" rel="noopener" class="btn btn-gold">
+            Reservar minha data
+          </a>
+          <a
+            href={`https://instagram.com/${CONTACT.instagram}`}
+            target="_blank"
+            rel="noopener"
+            class="btn btn-ghost"
+          >
+            Ver no Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  <WhatsAppFloat />
+</Base>

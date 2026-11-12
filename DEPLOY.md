@@ -127,6 +127,26 @@ O arquivo `wrangler.toml` já aponta a saída para `dist`.
 
 ---
 
+## Pixel da Meta (para anúncios)
+
+O site **já tem o código do Pixel pronto**, mas ele só ativa quando você define o ID.
+
+1. **Criar o Pixel:** [business.facebook.com/events_manager](https://business.facebook.com/events_manager) → *Connect data* → **Web** → criar com o nome `Salu Produções` → copiar o **ID** (só números).
+2. **No Cloudflare Pages:** projeto → *Settings* → *Environment variables* → adicionar:
+   - Nome: `PUBLIC_META_PIXEL_ID`
+   - Valor: o ID copiado
+3. **Redeploy** (*Retry deployment* ou novo push).
+
+Já vem configurado:
+
+- Evento **PageView** em todas as páginas
+- Evento **Lead** quando alguém clica em qualquer link do WhatsApp
+- Fallback para navegadores sem JavaScript
+
+> Sem o Pixel não dá para criar público de retargeting nem medir qual anúncio gera conversa.
+
+---
+
 ## Checklist depois do deploy
 
 - [ ] Abrir a URL e conferir as 8 páginas (home, portfólio, filmes, pacotes, sobre, orçamento, obrigado, 404)

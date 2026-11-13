@@ -12,10 +12,12 @@ import { SITE, CONTACT, LINKS } from '../consts';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
 }
 
-const { title = SITE.title, description = SITE.description } = Astro.props;
+const { title = SITE.title, description = SITE.description, image = '/og-image.jpg' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url);
+const ogImage = new URL(image, SITE.url).href;
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -24,7 +26,7 @@ const jsonLd = {
   description: SITE.description,
   url: SITE.url,
   telephone: `+${CONTACT.whatsapp}`,
-  image: `${SITE.url}/og-image.jpg`,
+  image: ogImage,
   areaServed: ['Paulínia', 'São Paulo'],
   sameAs: [LINKS.instagram],
   priceRange: 'R$ 1.990 - R$ 7.590',
@@ -60,13 +62,13 @@ document.addEventListener('click',function(e){var el=e.target;while(el&&el!==doc
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={`${SITE.url}/og-image.jpg`} />
+    <meta property="og:image" content={ogImage} />
     <meta property="og:locale" content="pt_BR" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={`${SITE.url}/og-image.jpg`} />
+    <meta name="twitter:image" content={ogImage} />
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 

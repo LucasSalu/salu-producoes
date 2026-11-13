@@ -1,16 +1,13 @@
 ---
 import { CONTACT } from '../../consts';
-import { byNumber, srcset, fallback, alt } from '../../lib/fotos';
-
-const hero = byNumber(70);
 ---
 
 <section class="grain relative flex min-h-[100svh] items-end overflow-hidden" data-hero>
   <img
-    src={fallback(hero, 1600)}
-    srcset={srcset(hero)}
+    src="/fotos/home-hero-1600.webp"
+    srcset="/fotos/home-hero-480.webp 480w, /fotos/home-hero-960.webp 960w, /fotos/home-hero-1600.webp 1600w, /fotos/home-hero-2048.webp 2048w"
     sizes="100vw"
-    alt={alt(hero)}
+    alt="Casal correndo na praia em ensaio de casamento"
     class="absolute inset-0 h-full w-full scale-[1.02] object-cover object-[50%_38%]"
     data-hero-img
     fetchpriority="high"

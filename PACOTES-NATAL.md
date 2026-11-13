@@ -17,14 +17,14 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 > **Brilho reforçado:** 1 look, mas **2 estilos de foto** — com a luz de Natal (festivo) e com luz suave (clássico) — **mais 5 impressões**. É o que o separa do Presente.
 
-> **Pessoas por sessão:** Presente: até 2 pessoas · Brilho, Memória e Família: quantas pessoas quiser.
+> **Pessoas por sessão:** Presente: até 2 pessoas · Brilho e Memória: individual, casal ou grupo · Família: família e amigos (sem restrição de número).
 
 **Para quem é cada um:**
 
 - **Presente** → individual ou casal (até 2 pessoas), presente de última hora
-- **Brilho** → individual, casal ou grupo — quantas pessoas quiser
+- **Brilho** → individual, casal ou grupo
 - **Memória** → quem quer mais capricho (2 looks = "dois ensaios em um")
-- **Família** → grupo à vontade, com lembrança física (álbum)
+- **Família** → família e amigos, com lembrança física (álbum)
 
 ---
 

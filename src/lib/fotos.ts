@@ -39,5 +39,5 @@ export function largest(f: Foto): string {
 }
 
 export function alt(f: Foto): string {
-  return `Casamento registrado pela Salu Produções — foto ${String(f.n).padStart(3, '0')}`;
+  return `Casamento registrado pela Salu Produções, foto ${String(f.n).padStart(3, '0')}`;
 }

@@ -17,14 +17,14 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 > **Brilho reforçado:** 1 look, mas **2 estilos de foto** — com a luz de Natal (festivo) e com luz suave (clássico) — **mais 5 impressões**. É o que o separa do Presente.
 
-> **Pessoas por sessão:** 1 a 2 nos pacotes Presente, Brilho e Memória · até 5 no Família · pessoa extra R$ 50.
+> **Pessoas por sessão:** Presente: até 2 pessoas · Brilho, Memória e Família: quantas pessoas quiser.
 
 **Para quem é cada um:**
 
-- **Presente** → quem nunca fez ensaio, presente de última hora, casal jovem
-- **Brilho** → individual ou casal que quer foto boa e rápida
+- **Presente** → individual ou casal (até 2 pessoas), presente de última hora
+- **Brilho** → individual, casal ou grupo — quantas pessoas quiser
 - **Memória** → quem quer mais capricho (2 looks = "dois ensaios em um")
-- **Família** → grupo de até 5 pessoas com lembrança física (álbum)
+- **Família** → grupo à vontade, com lembrança física (álbum)
 
 ---
 
@@ -46,7 +46,6 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 | --- | --- |
 | Foto extra editada | R$ 25 |
 | Look extra | R$ 100 |
-| Pessoa extra (acima do limite do pacote) | R$ 50 |
 | Maquiagem (parceira) | R$ 200 |
 | Álbum 20×20 | R$ 300 |
 | Quadro 30×40 | R$ 220 |

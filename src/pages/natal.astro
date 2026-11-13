@@ -14,6 +14,7 @@ const pacotes = [
     preco: 'R$ 350',
     depois: 'R$ 450',
     tempo: '15 min',
+    pessoas: 'até 2 pessoas',
     itens: ['1 look · 1 cenário', '8 fotos editadas', 'galeria online'],
     destaque: false,
   },
@@ -22,6 +23,7 @@ const pacotes = [
     preco: 'R$ 490',
     depois: 'R$ 590',
     tempo: '25 min',
+    pessoas: 'quantas pessoas quiser',
     itens: ['1 look · 2 estilos de foto', '12 fotos editadas', '5 impressões 15×21', 'galeria online'],
     destaque: false,
   },
@@ -30,6 +32,7 @@ const pacotes = [
     preco: 'R$ 690',
     depois: 'R$ 790',
     tempo: '45 min',
+    pessoas: 'quantas pessoas quiser',
     itens: ['2 looks', '25 fotos editadas', '5 impressões 15×21', 'galeria online'],
     destaque: true,
   },
@@ -38,7 +41,8 @@ const pacotes = [
     preco: 'R$ 990',
     depois: 'R$ 1.090',
     tempo: '60 min',
-    itens: ['até 5 pessoas', '35 fotos editadas', 'álbum 20×20', 'galeria online'],
+    pessoas: 'quantas pessoas quiser',
+    itens: ['35 fotos editadas', 'álbum 20×20', 'galeria online'],
     destaque: false,
   },
 ];
@@ -61,7 +65,7 @@ const faq = [
   },
   {
     q: 'Quantas pessoas podem participar?',
-    a: 'Presente, Brilho e Memória valem para 1 ou 2 pessoas (individual ou casal). O Família vai até 5 pessoas. Acima disso, pessoa extra R$ 50.',
+    a: 'O Presente é para individual ou casal (até 2 pessoas). Nos demais pacotes, quantas pessoas você quiser.',
   },
   {
     q: 'Posso levar meu pet?',
@@ -200,7 +204,7 @@ const faq = [
                   Mais escolhido
                 </span>
               )}
-              <p class="label">{p.tempo}</p>
+              <p class="label">{p.tempo} · {p.pessoas}</p>
               <h3 class="mt-3 font-display text-2xl">{p.nome}</h3>
               <p class="mt-5 flex items-baseline gap-2">
                 <span class="font-sans text-[0.6rem] uppercase tracking-[0.2em] text-champagne">R$</span>
@@ -231,11 +235,7 @@ const faq = [
 
         <div class="mx-auto mt-10 max-w-2xl space-y-2 text-center text-sm text-cream/55" data-reveal>
           <p>
-            <strong class="text-cream/80">Pessoas por sessão:</strong>
-            1 a 2 nos pacotes Presente, Brilho e Memória · até 5 no Família
-          </p>
-          <p>
-            Adicionais: foto extra R$ 25 · look extra R$ 100 · pessoa extra R$ 50 · pet R$ 60 ·
+            Adicionais: foto extra R$ 25 · look extra R$ 100 · pet R$ 60 ·
             maquiagem R$ 200 · álbum R$ 300 · vídeo 30 s R$ 250
           </p>
         </div>

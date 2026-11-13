@@ -163,6 +163,84 @@ Mensagens prontas para copiar. Regras de ouro no fim.
 
 ---
 
+## 8.1 Grupos de WhatsApp
+
+Link para incluir: **https://salu-producoes.pages.dev/natal/**
+
+### Condomínio (vizinhos)
+
+> Oi, vizinhos! 👋
+>
+> Aqui é o Lucas, da Salu Produções, fotógrafo de casamentos, e moro aqui no condomínio.
+>
+> Abri o estúdio de ensaios da Salu e a estreia é com ensaio de Natal: individual, casal ou família.
+>
+> Sem sair do prédio: é descer e fotografar. Ótimo para criança pequena, gestante, idoso ou pet.
+>
+> As 10 primeiras sessões estão com preço de inauguração.
+> Pacotes e fotos: salu-producoes.pages.dev/natal
+>
+> Quem quiser, me chama no privado 🎄
+
+### Grupo do bairro / cidade
+
+> Oi, gente! Sou o Lucas, da Salu Produções, fotógrafo de casamentos aqui de Paulínia.
+>
+> Abri o estúdio da Salu e a estreia é com ensaio de Natal: individual, casal ou família.
+>
+> Ambiente reservado, entrega antes do Natal.
+> As 10 primeiras sessões estão com preço de inauguração (a partir de R$ 350).
+>
+> Fotos e pacotes: salu-producoes.pages.dev/natal
+> Me chama no privado para reservar 🎄
+
+### Mães e pais
+
+> Mães e pais de Paulínia! 👋
+>
+> Sou o Lucas, fotógrafo aqui da cidade. O estúdio da Salu está com ensaio de Natal aberto.
+>
+> Ambiente reservado, com direção de poses. Sem trânsito e sem shopping lotado com criança cansada.
+>
+> De 15 a 60 minutos, com entrega antes do Natal.
+> As 10 primeiras sessões têm preço de inauguração.
+>
+> Fotos: salu-producoes.pages.dev/natal 🎄
+
+### Classificados / compras e vendas
+
+> **[VENDA] Ensaio de Natal em estúdio, Paulínia** 📸
+>
+> Individual, casal ou família. A partir de R$ 350 (preço de inauguração nas 10 primeiras).
+> Fotos editadas e entrega antes do Natal.
+>
+> Pacotes: salu-producoes.pages.dev/natal
+> Chama no privado 🎄
+
+### Família e amigos
+
+> Gente, novidade: estou com o estúdio da Salu aberto para ensaio de Natal 🎄
+>
+> Quem quiser fazer individual, casal ou família, me chama que eu organizo.
+> As primeiras 10 sessões estão com preço de inauguração.
+>
+> Se conhecer alguém que possa se interessar, me indica 🙏
+
+### Follow-up (2 dias depois, só nos grupos que reagiram)
+
+> Gente, as datas de dezembro estão fechando e as vagas de inauguração também.
+> Se alguém ficou interessado, me chama hoje que eu encaixo um horário 🎄
+
+### Regras para grupos
+
+1. Pergunte ao admin antes (grupos de cidade proíbem divulgação)
+2. Uma mensagem por grupo, nunca repetida dentro de dias
+3. Horário: 10h às 11h ou 19h às 20h
+4. Anexe a Arte 1, a do "Amor em Foco", porque imagem aumenta a resposta
+5. Responda rápido quem chamar no privado
+
+---
+
 ## 9. Regras de ouro
 
 1. **Responder em até 30 minutos** — quem decide hoje, compra hoje

@@ -122,16 +122,6 @@
         "preco": 90
       },
       {
-        "id": "pet",
-        "nome": "Pet",
-        "preco": 60
-      },
-      {
-        "id": "maquiagem",
-        "nome": "Maquiagem parceira",
-        "preco": 200
-      },
-      {
         "id": "video_30s",
         "nome": "Vídeo vertical 30 s",
         "preco": 250
@@ -144,7 +134,10 @@
     ]
   },
   "pagamento": {
-    "sinal": 100,
+    "sinal": {
+      "terca_a_quinta": 50,
+      "fim_de_semana": 100
+    },
     "sinal_metodo": "Pix",
     "restante": "no dia da sessão",
     "avulso": "pago na escolha das fotos",
@@ -168,5 +161,9 @@
     "whatsapp_link": "https://wa.me/5519993520172",
     "instagram": "@salu_producoes",
     "instagram_link": "https://instagram.com/salu_producoes"
+  },
+  "inclusos": {
+    "pet": "sem custo extra",
+    "maquiagem": "não inclusa (indicação de parceira)"
   }
 }

@@ -55,8 +55,6 @@ Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa n
 | --- | --- |
 | Look extra | R$ 100 |
 | +15 min de ensaio | R$ 90 |
-| Pet | R$ 60 |
-| Maquiagem (parceira) | R$ 200 |
 | Vídeo vertical 30 s | R$ 250 |
 | Entrega em 24 h | R$ 80 |
 
@@ -66,7 +64,7 @@ Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa n
 
 | Regra | Valor |
 | --- | --- |
-| Sinal para reservar | **R$ 100** (Pix) |
+| Sinal | **R$ 50** de terça a quinta · **R$ 100** no fim de semana (Pix) |
 | Restante | No dia da sessão |
 | Avulso | Na escolha das fotos |
 | À vista | 10% de desconto |
@@ -96,6 +94,8 @@ Com 30 min por sessão e 10 min de intervalo, cada vaga ocupa 40 minutos.
 | Álbuns | 7 | R$ 330 | R$ 2.310 |
 | Impressões | 9 | R$ 100 | R$ 900 |
 | Extras | 11 | R$ 90 | R$ 990 |
+> Pet é bem-vindo sem custo extra. A maquiagem não está inclusa: indique uma parceira.
+
 | **Total** | **54 sessões** | | **R$ 20.076** |
 
 **54 sessões em 5 semanas = 11 por semana.** Cabe com folga na agenda.

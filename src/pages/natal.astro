@@ -8,8 +8,6 @@ import { CONTACT } from '../consts';
 const wa = (msg: string) =>
   `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(msg)}`;
 
-const opcoes = [];
-
 const fotos = [
   ['+5 fotos', 'R$ 30'],
   ['+10 fotos', 'R$ 60'],
@@ -35,7 +33,7 @@ const passos = [
   { n: '01', t: 'Reserva', d: 'Sinal de R$ 50 de terça a quinta, R$ 100 no fim de semana.' },
   { n: '02', t: 'Sessão', d: '30 minutos no estúdio. Eu dirijo as poses.' },
   { n: '03', t: 'Escolha', d: 'Você vê as fotos e decide o que levar: mais fotos, impressão ou álbum.' },
-  { n: '04', t: 'Entrega', d: 'Em até 5 dias úteis, prontas para o Natal.' },
+  { n: '04', t: 'Entrega', d: 'Em até 24h úteis depois da escolha, prontas para o Natal.' },
 ];
 
 const faq = [

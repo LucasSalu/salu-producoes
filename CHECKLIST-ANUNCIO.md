@@ -64,8 +64,8 @@ Acesse: **business.facebook.com/adsmanager** → **Criar**
 
 **A — Direto (recomendado para começar)**
 > Ensaio de Natal no estúdio da Salu 🎄
-> Presente R$ 350 · Brilho R$ 490 · Memória R$ 690 · Família R$ 990
-> **10 vagas com preço de inauguração** — depois sobe.
+> **Lote 1: R$ 190 · 8 vagas**
+> 20 min de ensaio + 5 fotos inclusas. Depois você escolhe mais fotos, impressão ou álbum.
 > Chama no WhatsApp →
 
 **B — Emocional**

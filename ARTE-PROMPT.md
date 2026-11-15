@@ -1,59 +1,93 @@
-# 🎨 Prompt para gerar a imagem do anúncio
+# 🎨 Prompts — arte de feed e arte de stories
 
-Leia o `briefing-arte.json` junto com este arquivo. A regra mais importante está no fim: **a imagem sai sem texto**.
-
----
-
-## Prompt em português (para ChatGPT, Gemini, etc.)
-
-> Crie uma fotografia editorial minimalista para o anúncio de um estúdio de fotografia de Natal.
->
-> **Cena:** um canto de ambiente simples, parede de reboco pintada em creme quente (#F6F1E6). No canto direito, um vaso de cerâmica fosca com um único galho de pinheiro. Ao lado, um presente pequeno embrulhado em papel vinho (#5E2333) com fita fina. Nada mais.
->
-> **Luz:** luz de janela difusa entrando pela esquerda, sombra longa e suave, sem sol direto.
->
-> **Câmera:** lente 50 mm, profundidade de campo rasa, textura de filme analógico (grão fino, cores levemente dessaturadas), como se fosse fotografado em filme 400 ISO.
->
-> **Composição:** formato vertical 4:5. Deixe os dois terços de cima com **espaço vazio** para eu colocar o texto depois. Os objetos ficam no terço inferior, deslocados para a direita, nunca centralizados.
->
-> **Cores:** creme, vinho e um toque de dourado fosco. Nada de vermelho vivo, nada de verde saturado.
->
-> **Não inclua:** texto, logotipo, marca d'água, pessoas, brilhos, glitter, bolas de bokeh, neve, estrelas, enfeites flutuando, árvore de Natal simétrica, render 3D, aspecto de plástico, degradê, neon, moldura.
+Mesma linguagem visual, duas composições. **As imagens saem sem texto.**
 
 ---
 
-## Prompt em inglês (para Midjourney, Ideogram, DALL·E)
+## Peça 1 · Post de feed (1080×1350)
 
-> Minimalist editorial still life photograph for a Christmas photo studio ad. Warm cream plaster wall, a matte ceramic vase with a single pine branch at the right edge, one small gift wrapped in muted burgundy paper with a thin ribbon. Soft diffused window light from the left, long gentle shadow. Shot on 50mm, shallow depth of field, fine film grain, slightly desaturated Portra 400 palette, calm and warm. Vertical 4:5 composition with large empty negative space in the upper two thirds for typography. Objects placed low and off-center to the right. Palette: cream, burgundy, muted brass gold. No text, no logo, no people, no sparkles, no glitter, no bokeh balls, no snow, no stars, no floating decorations, no symmetrical Christmas tree, no 3D render, no CGI, no plastic look, no neon, no purple gradient, no frame.
+### Prompt (português)
 
-**Negative prompt:** text, watermark, logo, sparkles, glitter, bokeh balls, snow, stars, neon, purple gradient, 3D render, CGI, plastic, oversaturated, symmetrical tree, floating ornaments, frame, clip art, canva template.
+> Crie uma fotografia editorial minimalista, formato vertical 4:5, para um estúdio de fotografia de Natal.
+>
+> **Cena:** parede de reboco em creme quente (#F6F1E6) ocupando a metade de cima, vazia. Na metade de baixo, um still life simples: vaso de cerâmica fosca com um único galho de pinheiro, ao lado um presente pequeno em papel vinho (#5E2333) com fita fina de algodão. Nada mais.
+>
+> **Luz:** janela difusa pela esquerda, sombra longa e suave, sem sol direto.
+>
+> **Câmera:** 50 mm, profundidade rasa, grão fino de filme 400 ISO, cores levemente dessaturadas.
+>
+> **Composição:** objetos no terço inferior, deslocados para a direita. Muito espaço vazio em cima para o texto.
+>
+> **Não inclua:** texto, logotipo, pessoas, brilhos, glitter, bokeh, neve, estrelas, 3D, plástico, degradê, neon, moldura.
 
-**Parâmetros (Midjourney):** `--ar 4:5 --style raw --stylize 100`
+### Texto (aplicar depois)
 
----
-
-## As 3 variações para pedir
-
-1. **Galho e presente** (a cena do prompt acima)
-2. **Canto de sala**: árvore parcialmente fora do quadro, só o galho e as luzes entrando pela lateral
-3. **Detalhe**: fita, agulhas de pinheiro e sombra suave em close
-
----
-
-## Regra de ouro: imagem sem texto
-
-Nenhuma IA escreve texto bonito com confiança. Se ela tentar, sai aquele visual de "IA": letras tortas, acentos quebrados, espaçamento errado.
-
-**Fluxo certo:**
-
-1. Gere a imagem **sem texto nenhum**, com espaço vazio
-2. Aplique a tipografia depois no Canva (Playfair Display + Montserrat)
-3. Cores do texto: vinho `#5E2333` no título, tinta `#1D1A16` no apoio
-
-Assim a peça parece feita por gente, porque metade dela foi.
+```
+ENSAIO DE NATAL
+R$ 199
+30 min · 10 fotos · entrega em 24h
+Salu Produções
+```
 
 ---
 
-## Se quiser, eu faço a tipografia
+## Peça 2 · Stories (1080×1920)
 
-Me manda a imagem que a IA gerar (a versão limpa, sem texto) e eu componho o texto em HTML/CSS no formato 1080×1350, com a fonte certa e o espaçamento correto. É determinístico: não tem erro de acento nem de alinhamento.
+### Prompt (português)
+
+> Crie uma fotografia editorial minimalista, formato vertical 9:16, para stories de um estúdio de fotografia de Natal.
+>
+> **Cena:** parede de reboco em creme quente (#F6F1E6) ocupando dois terços de cima, vazia. No terço inferior, um galho de pinheiro saindo de um vaso de cerâmica fosca, e um presente pequeno em papel vinho com fita fina.
+>
+> **Luz:** janela difusa lateral, sombra longa, clima calmo e quente.
+>
+> **Câmera:** 50 mm, profundidade rasa, grão fino de filme 400 ISO.
+>
+> **Composição:** objetos só na parte de baixo. Muito espaço vazio da metade para cima.
+>
+> **Não inclua:** texto, logotipo, pessoas, brilhos, glitter, bokeh, neve, estrelas, 3D, plástico, degradê, neon, moldura.
+
+### Zonas seguras do stories
+
+| Faixa | Uso |
+|---|---|
+| 0 a 15% | vazio (nome do perfil e barra do topo) |
+| 15 a 30% | margem |
+| **30 a 55%** | **texto** |
+| 55 a 85% | foto |
+| 80 a 85% | chamada ("Reserve pelo WhatsApp") |
+| 85 a 100% | vazio (barra de resposta e figurinhas) |
+
+### Texto (aplicar depois)
+
+```
+ENSAIO DE NATAL
+R$ 199
+30 min · 10 fotos · 24h
+Reserve pelo WhatsApp
+@salu_producoes
+```
+
+---
+
+## Versões em inglês (Midjourney / Ideogram)
+
+**Feed (4:5)**
+> Minimalist editorial still life, vertical 4:5, for a Christmas photo studio. Warm cream plaster wall filling the upper half, empty. Lower third: matte ceramic vase with a single pine branch, a small gift in muted burgundy paper with a thin cotton ribbon. Soft diffused window light from the left, long gentle shadow. 50mm, shallow depth of field, fine film grain, desaturated Portra 400 palette. Objects low and off-center right. No text, no logo, no people, no sparkles, no glitter, no bokeh, no snow, no stars, no 3D, no plastic, no gradient, no neon, no frame.
+> `--ar 4:5 --style raw --stylize 100`
+
+**Stories (9:16)**
+> Minimalist editorial still life, vertical 9:16, for Instagram stories. Warm cream plaster wall filling the upper two thirds, empty. Lower third: matte ceramic vase with a pine branch and a small burgundy gift with thin ribbon. Soft lateral window light, long shadow. 50mm, shallow depth of field, fine film grain. Objects only at the bottom. No text, no logo, no people, no sparkles, no glitter, no bokeh, no snow, no stars, no 3D, no plastic, no gradient, no neon, no frame.
+> `--ar 9:16 --style raw --stylize 100`
+
+---
+
+## Regra de ouro
+
+Peça **sem texto**. A tipografia entra depois:
+
+- Título: **Playfair Display**, vinho `#5E2333`
+- Apoio: **Montserrat** caixa alta, espaçada, tinta `#1D1A16`
+- Linha de separação: dourado `#C9A227`, 1 px
+
+Se quiser, me manda as duas imagens limpas e eu componho as duas peças em HTML/CSS no tamanho exato (1080×1350 e 1080×1920), com o texto já alinhado.

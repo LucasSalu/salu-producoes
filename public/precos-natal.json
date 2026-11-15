@@ -12,46 +12,18 @@
   },
   "opcoes": [
     {
-      "id": "presente",
-      "nome": "Presente",
-      "fotos": 10,
+      "id": "ensaio_natal",
+      "nome": "Ensaio de Natal",
       "preco": 199,
-      "preco_por_foto": 19.9,
+      "fotos_inclusas": 10,
+      "duracao_minutos": 30,
+      "entrega": "24 horas úteis após a escolha das fotos",
       "preco_depois": 249,
       "inclui": [
         "30 minutos de ensaio",
         "1 look, 1 cenário",
         "10 fotos editadas",
-        "galeria online"
-      ]
-    },
-    {
-      "id": "classico",
-      "nome": "Clássico",
-      "fotos": 15,
-      "preco": 230,
-      "preco_por_foto": 15.33,
-      "preco_depois": 289,
-      "inclui": [
-        "30 minutos de ensaio",
-        "1 look, 1 cenário",
-        "15 fotos editadas",
-        "galeria online"
-      ]
-    },
-    {
-      "id": "completo",
-      "nome": "Completo",
-      "fotos": 20,
-      "preco": 250,
-      "preco_por_foto": 12.5,
-      "preco_depois": 319,
-      "destaque": true,
-      "inclui": [
-        "30 minutos de ensaio",
-        "1 look, 1 cenário",
-        "20 fotos editadas",
-        "galeria online"
+        "pet bem-vindo sem custo"
       ]
     }
   ],
@@ -60,22 +32,22 @@
       {
         "id": "foto_extra",
         "nome": "Foto extra",
-        "preco": 5
+        "preco": 6
       },
       {
         "id": "mais_5",
         "nome": "+5 fotos",
-        "preco": 25
+        "preco": 30
       },
       {
         "id": "mais_10",
         "nome": "+10 fotos",
-        "preco": 50
+        "preco": 60
       },
       {
         "id": "mais_20",
         "nome": "+20 fotos",
-        "preco": 100
+        "preco": 120
       },
       {
         "id": "galeria_completa",
@@ -125,11 +97,6 @@
         "id": "video_30s",
         "nome": "Vídeo vertical 30 s",
         "preco": 250
-      },
-      {
-        "id": "entrega_24h",
-        "nome": "Entrega em 24 h",
-        "preco": 80
       }
     ]
   },
@@ -145,11 +112,12 @@
     "parcelamento": "3x sem juros no cartão"
   },
   "politicas": {
-    "entrega_dias_uteis": 5,
+    "entrega_dias_uteis": 1,
     "garantia_natal": "sessões até 20/12 com entrega até 24/12",
     "remarcacao": "até 24 h antes, 1 remarcação gratuita",
     "atraso": "tempo atrasado é descontado da sessão",
-    "uso_de_imagem": "autorização assinada no dia (LGPD)"
+    "uso_de_imagem": "autorização assinada no dia (LGPD)",
+    "entrega": "24 horas úteis após a escolha das fotos"
   },
   "vale_presente": {
     "validade_meses": 6,

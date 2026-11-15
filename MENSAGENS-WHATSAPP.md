@@ -177,7 +177,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 >
 > Sem sair do prédio: é descer e fotografar. Ótimo para criança pequena, gestante, idoso ou pet.
 >
-> As 10 primeiras sessões estão com preço de inauguração.
+> O Lote 1 está em R\$ 190, com 8 vagas. Depois o preço sobe.
 > Pacotes e fotos: salu-producoes.pages.dev/natal
 >
 > Quem quiser, me chama no privado 🎄
@@ -203,7 +203,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Ambiente reservado, com direção de poses. Sem trânsito e sem shopping lotado com criança cansada.
 >
 > De 15 a 60 minutos, com entrega antes do Natal.
-> As 10 primeiras sessões têm preço de inauguração.
+> O Lote 1 está em R\$ 190, com 8 vagas.
 >
 > Fotos: salu-producoes.pages.dev/natal 🎄
 
@@ -222,7 +222,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Gente, novidade: estou com o estúdio da Salu aberto para ensaio de Natal 🎄
 >
 > Quem quiser fazer individual, casal ou família, me chama que eu organizo.
-> As primeiras 10 sessões estão com preço de inauguração.
+> O Lote 1 está em R\$ 190.
 >
 > Se conhecer alguém que possa se interessar, me indica 🙏
 

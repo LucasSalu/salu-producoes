@@ -1,58 +1,61 @@
-# 🎄 Pacotes — Ensaio de Natal no Estúdio Salu
+# 🎄 Preços — Ensaio de Natal (lote + avulso)
 
-Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são decisões suas.
-
----
-
-## 1. Visão geral
-
-4 pacotes · 1 cenário · sessões rápidas · entrega digital garantida
-
-| Pacote | Tempo | Looks | Fotos editadas | Entregáveis | Preço |
-| --- | --- | --- | --- | --- | --- |
-| **Presente** *(isca)* | 15 min | 1 | 8 | galeria online | **R$ 350** |
-| **Brilho** | 25 min | 1 | 12 | galeria + **5 impressões 15×21** | **R$ 490** |
-| **Memória** | 45 min | 2 | 25 | galeria + 5 impressões 15×21 | **R$ 690** |
-| **Família** | 60 min | 1 | 35 | galeria + álbum 20×20 | **R$ 990** |
-
-> **Brilho reforçado:** 1 look, mas **2 estilos de foto** — com a luz de Natal (festivo) e com luz suave (clássico) — **mais 5 impressões**. É o que o separa do Presente.
-
-> **Pessoas por sessão:** Presente: até 2 pessoas · Brilho e Memória: individual, casal ou grupo · Família: família e amigos (sem restrição de número).
-
-**Para quem é cada um:**
-
-- **Presente** → individual ou casal (até 2 pessoas), presente de última hora
-- **Brilho** → individual, casal ou grupo
-- **Memória** → quem quer mais capricho (2 looks = "dois ensaios em um")
-- **Família** → família e amigos, com lembrança física (álbum)
+Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha das fotos.
 
 ---
 
-## 2. O que está incluso em todos
+## 1. O que entra em todo lote
 
-- Sessão no estúdio da Salu (1 cenário de Natal)
-- Direção de poses (ninguém fica sem saber o que fazer)
-- Seleção e **edição premium** das fotos
-- Galeria online privada por 30 dias
-- Entrega digital em alta resolução
-
-**O que NÃO está incluso:** maquiagem, figurino, impressões/álbum (exceto onde indicado), deslocamento fora de Paulínia.
+- **20 minutos** de ensaio no estúdio
+- 1 look, 1 cenário de Natal
+- Direção de poses
+- **5 fotos editadas** em alta resolução
+- Galeria online
 
 ---
 
-## 3. Adicionais (upsell no atendimento)
+## 2. Os 3 lotes (vagas limitadas)
 
+| Lote | Vagas | Preço | Observação |
+| --- | --- | --- | --- |
+| **Lote 1** | 8 | **R$ 190** | Abertura, mais barato |
+| **Lote 2** | 8 | **R$ 240** | Depois de esgotar o 1 |
+| **Lote 3** | 8 | **R$ 290** | Último lote |
+| Tabela cheia | — | **R$ 350** | Depois do Lote 3 |
+
+> O preço sobe de verdade a cada lote. Nunca invente escassez: use a contagem real de vagas.
+
+---
+
+## 3. Venda avulsa (na escolha das fotos)
+
+### Fotos
 | Item | Preço |
 | --- | --- |
-| Foto extra editada | R$ 25 |
-| Look extra | R$ 100 |
-| Maquiagem (parceira) | R$ 200 |
-| Álbum 20×20 | R$ 300 |
-| Quadro 30×40 | R$ 220 |
-| Vídeo vertical 30 s (reels) | R$ 250 |
-| Antecipação de entrega (24 h) | R$ 80 |
+| 1 foto extra | R$ 25 |
+| +5 fotos | R$ 100 |
+| +10 fotos | R$ 180 |
+| +20 fotos | R$ 300 |
+| Galeria completa | R$ 400 |
 
-> O "Presente" (R$ 350) é desenhado para upselling: 8 fotos é pouco — foto extra a R$ 25 e upgrade para o Brilho são o próximo passo natural.
+### Impressos
+| Item | Preço |
+| --- | --- |
+| 1 impressão 15×21 | R$ 25 |
+| 5 impressões 15×21 | R$ 100 |
+| Álbum 20×20 | R$ 350 |
+| Álbum 25×25 | R$ 480 |
+| Quadro 30×40 | R$ 220 |
+
+### Na sessão
+| Item | Preço |
+| --- | --- |
+| Look extra | R$ 100 |
+| +15 min de ensaio | R$ 100 |
+| Pet | R$ 60 |
+| Maquiagem (parceira) | R$ 200 |
+| Vídeo vertical 30 s | R$ 250 |
+| Entrega em 24 h | R$ 80 |
 
 ---
 
@@ -60,90 +63,83 @@ Versão organizada e pronta para divulgar. Os valores marcados com ⚠️ são d
 
 | Regra | Valor |
 | --- | --- |
-| **Sinal para reservar** | R$ 100 (Pix) — data só é garantida após o sinal |
-| **Restante** | até o dia da sessão |
+| Sinal para reservar | **R$ 100** (Pix) |
+| Base do lote | Pago no dia da sessão |
+| Avulso | Pago na escolha das fotos |
 | À vista | 10% de desconto |
 | Parcelado | 3× sem juros (cartão) |
 
-> Sinal não reembolsável em caso de desistência, mas convertível em **vale-presente** para usar em até 6 meses. Isso evita briga e ainda vende de novo.
+> Sinal conversível em vale-presente se precisar remarcar. Reduz objeção e ainda vende de novo.
 
 ---
 
 ## 5. Vale-presente
 
-- Qualquer pacote pode ser comprado como presente
-- Cartão impresso + envelope (na identidade do convite de Natal)
-- Validade: 6 meses (empurra a demanda para janeiro/fevereiro, época fraca)
-- Entrega: digital (PDF) grátis · físico R$ 15
+- Vale para qualquer lote ou compra avulsa
+- Cartão impresso + envelope
+- Validade de 6 meses
+- A pessoa escolhe a data depois
 
 ---
 
-## 6. Políticas (deixe claro no ato da venda)
+## 6. Políticas
 
 | Situação | Regra |
 | --- | --- |
-| Atraso | O tempo atrasado é descontado da sessão (não atrasa o próximo cliente) |
+| Atraso | O tempo atrasado é descontado da sessão |
 | Remarcação | Até 24 h antes, 1 remarcação gratuita |
-| Entrega | ⚠️ **X dias úteis** (sugestão: 3–5) |
-| Garantia do Natal | Sessões até ⚠️ **20/12** têm entrega garantida até 24/12 |
-| Uso de imagem | Autorização assinada no dia (LGPD) — sem autorização, não publicamos |
-| Clima | Não se aplica (estúdio fechado) ✅ |
+| Entrega | Até 5 dias úteis |
+| Garantia do Natal | Sessões até 20/12 com entrega até 24/12 |
+| Uso de imagem | Autorização assinada no dia (LGPD) |
 
 ---
 
-## 7. Agenda e operação
+## 7. Por que esse modelo funciona
 
-- **Sessões por dia:** 6 a 8 (intervalo de 10 min para troca de cenário)
-- **Horários:** sábado e domingo o dia todo · terça a sexta à noite
-- **Contador real de datas** para os stories (só número verdadeiro)
+1. **Entrada de R$ 190** derruba a barreira. Quem nunca fez ensaio entra sem medo.
+2. **Você fala de preço depois da sessão**, quando a pessoa já viu as fotos e quer levar mais.
+3. **O lucro vem do avulso**, não da base. Cada sessão de 20 min pode virar R$ 600.
+4. **As vagas numeradas** criam urgência honesta e fazem o preço subir sozinho.
+
+> ⚠️ O risco: se você não vender o avulso, o modelo vira prejuízo. **A conversa de escolha das fotos é o momento mais importante do atendimento.**
 
 ---
 
-## 8. Oferta de inauguração
+## 8. A conta dos R$ 20.000
 
-| Regra | Detalhe |
-| --- | --- |
-| Limite | 10 primeiras sessões |
-| Benefício | **Preço de lançamento já aplicado** (R$ 350 / 490 / 690 / 990) — depois sobe para R$ 450 / 590 / 790 / 1.090 |
-| Condição | Nenhuma — vale para as 10 primeiras que reservarem |
-| Prazo | ⚠️ até [data real] ou enquanto houver vaga |
+| Fonte | Volume | Ticket | Total |
+| --- | --- | --- | --- |
+| Base dos lotes (mix 1/2/3) | 34 sessões | R$ 240 | R$ 8.160 |
+| + Fotos avulsas | 24 sessões | R$ 250 | R$ 6.000 |
+| + Álbuns | 9 álbuns | R$ 350 | R$ 3.150 |
+| + Impressões | 14 pedidos | R$ 100 | R$ 1.400 |
+| + Extras (pet, vídeo, 24 h) | 16 pedidos | R$ 85 | R$ 1.360 |
+| **Total** | **34 sessões** | | **R$ 20.070** |
+
+34 sessões em 5 semanas = 7 por semana. Cabe na agenda.
 
 ---
 
 ## 9. Textos prontos
 
-### Card para Instagram (legenda)
+### Legenda do post
 
-> O dia mais importante da sua vida a gente já sabe fotografar.
-> O Natal também. 🎄
+> Este Natal, o estúdio da Salu abre com um lote especial 🎄
 >
-> Estreando o estúdio da Salu com ensaios de Natal:
-> ✨ Presente — R$ 350
-> ✨ Brilho — R$ 490
-> ✨ Memória — R$ 690
-> ✨ Família — R$ 990
+> 20 minutos de ensaio, 5 fotos inclusas, a partir de **R$ 190**.
+> Lote 1 tem 8 vagas. Depois, o preço sobe.
 >
-> As 10 primeiras sessões têm preço de inauguração.
-> Reserva pelo WhatsApp → link na bio.
+> Quer mais fotos, impressão ou álbum? Você escolhe na hora, sem pacote fechado.
+>
+> Reserva pelo WhatsApp.
 
-### Mensagem de WhatsApp (atendimento)
+### Primeira mensagem do WhatsApp
 
-> "Oii! Que bom que você quer viver esse Natal com a gente 🎄 É ensaio individual, casal ou família? E tem alguma data em mente?"
+> Oi, [nome]! Que bom que você quer viver esse Natal com a gente 🎄
+> Me conta: é individual, casal ou família? E tem alguma data em mente?
 
-*(as outras 2 mensagens do funil estão no MARKETING-NATAL.md)*
+### Proposta
 
----
-
-## 10. Decisões que faltam (⚠️)
-
-| # | Decisão | Minha sugestão |
-| --- | --- | --- |
-| 1 | Prazo de entrega das fotos | 3–5 dias úteis |
-| 2 | Último dia de sessão com garantia para 24/12 | 20/12 |
-| 3 | Data final da oferta de inauguração | 30/11 (ou até fechar as 10) |
-| 4 | Valor do sinal | R$ 100 |
-| 5 | Confirmar preços dos adicionais | como na tabela |
-
----
-
-> Página `/natal` publicada no site com esses pacotes e o bloco de vale-presente.
+> Perfeito! O Lote [X] está em [preço] e inclui 20 min de ensaio + 5 fotos editadas.
+> Para garantir a vaga, o sinal é R$ 100 no Pix. O restante fica para o dia da sessão.
+> Depois da sessão eu te mostro as fotos e você decide se quer levar mais alguma coisa.

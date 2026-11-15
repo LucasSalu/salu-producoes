@@ -64,7 +64,7 @@ Acesse: **business.facebook.com/adsmanager** → **Criar**
 
 **A — Direto (recomendado para começar)**
 > Ensaio de Natal no estúdio da Salu 🎄
-> **Lote 1: R$ 190 · 8 vagas**
+> **Lote 1: R$ 250 · 8 vagas**
 > 20 min de ensaio + 5 fotos inclusas. Depois você escolhe mais fotos, impressão ou álbum.
 > Chama no WhatsApp →
 
@@ -87,7 +87,7 @@ Acesse: **business.facebook.com/adsmanager** → **Criar**
 - [ ] **Audience Network desligada**
 - [ ] Número do WhatsApp **confere**
 - [ ] Mensagem pré-preenchida **preenchida**
-- [ ] Texto do anúncio **sem erro de preço** (190/240/290)
+- [ ] Texto do anúncio **sem erro de preço** (250/300/350)
 - [ ] Imagem no formato certo (feed 4:5 / story 9:16)
 
 ---

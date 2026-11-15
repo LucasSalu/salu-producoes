@@ -1,6 +1,6 @@
 # 🎄 Preços — Ensaio de Natal (lote + avulso)
 
-Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha das fotos.
+Modelo novo: entrada acessível para encher agenda, com 10 fotos inclusas e venda avulsa na escolha.
 
 ---
 
@@ -9,7 +9,7 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 - **20 minutos** de ensaio no estúdio
 - 1 look, 1 cenário de Natal
 - Direção de poses
-- **5 fotos editadas** em alta resolução
+- **10 fotos editadas** em alta resolução
 - Galeria online
 
 ---
@@ -18,12 +18,12 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 
 | Lote | Vagas | Preço | Observação |
 | --- | --- | --- | --- |
-| **Lote 1** | 8 | **R$ 190** | Abertura, mais barato |
-| **Lote 2** | 8 | **R$ 240** | Depois de esgotar o 1 |
-| **Lote 3** | 8 | **R$ 290** | Último lote |
-| Tabela cheia | — | **R$ 350** | Depois do Lote 3 |
+| **Lote 1** | 8 | **R$ 250** | Abertura |
+| **Lote 2** | 8 | **R$ 300** | Depois de esgotar o 1 |
+| **Lote 3** | 8 | **R$ 350** | Último lote |
+| Tabela cheia | — | **R$ 400** | Depois do Lote 3 |
 
-> O preço sobe de verdade a cada lote. Nunca invente escassez: use a contagem real de vagas.
+> Referência de mercado: estúdios cobram de R$ 210 (lote promocional, 10 fotos digitais) a R$ 400 (10 fotos com impressão, 1h). O Lote 1 a R$ 250 fica competitivo sem desvalorizar.
 
 ---
 
@@ -32,11 +32,11 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 ### Fotos
 | Item | Preço |
 | --- | --- |
-| 1 foto extra | R$ 25 |
-| +5 fotos | R$ 100 |
-| +10 fotos | R$ 180 |
-| +20 fotos | R$ 300 |
-| Galeria completa | R$ 400 |
+| 1 foto extra | R$ 20 |
+| +5 fotos | R$ 80 |
+| +10 fotos | R$ 140 |
+| +20 fotos | R$ 240 |
+| Galeria completa | R$ 350 |
 
 ### Impressos
 | Item | Preço |
@@ -96,10 +96,10 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 
 ## 7. Por que esse modelo funciona
 
-1. **Entrada de R$ 190** derruba a barreira. Quem nunca fez ensaio entra sem medo.
-2. **Você fala de preço depois da sessão**, quando a pessoa já viu as fotos e quer levar mais.
-3. **O lucro vem do avulso**, não da base. Cada sessão de 20 min pode virar R$ 600.
-4. **As vagas numeradas** criam urgência honesta e fazem o preço subir sozinho.
+1. **Entrada de R$ 250** com 10 fotos fica no preço de mercado e derruba a barreira de entrada.
+2. **10 fotos inclusas** já entregam valor suficiente para a pessoa gostar e querer mais.
+3. **O lucro vem do avulso**, não da base. Cada sessão pode virar R$ 600 ou mais.
+4. **Vagas numeradas** criam urgência honesta e fazem o preço subir sozinho.
 
 > ⚠️ O risco: se você não vender o avulso, o modelo vira prejuízo. **A conversa de escolha das fotos é o momento mais importante do atendimento.**
 
@@ -109,14 +109,14 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 
 | Fonte | Volume | Ticket | Total |
 | --- | --- | --- | --- |
-| Base dos lotes (mix 1/2/3) | 34 sessões | R$ 240 | R$ 8.160 |
-| + Fotos avulsas | 24 sessões | R$ 250 | R$ 6.000 |
-| + Álbuns | 9 álbuns | R$ 350 | R$ 3.150 |
-| + Impressões | 14 pedidos | R$ 100 | R$ 1.400 |
-| + Extras (pet, vídeo, 24 h) | 16 pedidos | R$ 85 | R$ 1.360 |
-| **Total** | **34 sessões** | | **R$ 20.070** |
+| Base dos lotes (mix 1/2/3) | 33 sessões | R$ 300 | R$ 9.900 |
+| + Fotos avulsas | 22 sessões | R$ 250 | R$ 5.500 |
+| + Álbuns | 8 álbuns | R$ 350 | R$ 2.800 |
+| + Impressões | 9 pedidos | R$ 100 | R$ 900 |
+| + Extras (pet, vídeo, 24 h) | 12 pedidos | R$ 85 | R$ 1.020 |
+| **Total** | **33 sessões** | | **R$ 20.120** |
 
-34 sessões em 5 semanas = 7 por semana. Cabe na agenda.
+33 sessões em 5 semanas = 6 a 7 por semana. Cabe na agenda.
 
 ---
 
@@ -126,8 +126,8 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 
 > Este Natal, o estúdio da Salu abre com um lote especial 🎄
 >
-> 20 minutos de ensaio, 5 fotos inclusas, a partir de **R$ 190**.
-> Lote 1 tem 8 vagas. Depois, o preço sobe.
+> 20 minutos de ensaio e 10 fotos inclusas, a partir de **R$ 250**.
+> O Lote 1 tem 8 vagas. Depois, o preço sobe.
 >
 > Quer mais fotos, impressão ou álbum? Você escolhe na hora, sem pacote fechado.
 >
@@ -140,6 +140,6 @@ Modelo novo: entrada barata para encher agenda, faturamento na hora da escolha d
 
 ### Proposta
 
-> Perfeito! O Lote [X] está em [preço] e inclui 20 min de ensaio + 5 fotos editadas.
+> Perfeito! O Lote [X] está em [preço] e inclui 20 min de ensaio + 10 fotos editadas.
 > Para garantir a vaga, o sinal é R$ 100 no Pix. O restante fica para o dia da sessão.
 > Depois da sessão eu te mostro as fotos e você decide se quer levar mais alguma coisa.

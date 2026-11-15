@@ -35,11 +35,11 @@ Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa n
 ### Fotos
 | Item | Preço |
 | --- | --- |
-| 1 foto extra | R$ 20 |
-| +5 fotos | R$ 70 |
-| +10 fotos | R$ 120 |
-| +20 fotos | R$ 200 |
-| Galeria completa | R$ 280 |
+| 1 foto extra | R$ 5 |
+| +5 fotos | R$ 25 |
+| +10 fotos | R$ 50 |
+| +20 fotos | R$ 100 |
+| Galeria completa | R$ 350 |
 
 ### Impressos
 | Item | Preço |

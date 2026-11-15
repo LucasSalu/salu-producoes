@@ -57,26 +57,90 @@
   ],
   "avulso": {
     "fotos": [
-      { "id": "foto_extra", "nome": "Foto extra", "preco": 20 },
-      { "id": "mais_5", "nome": "+5 fotos", "preco": 70 },
-      { "id": "mais_10", "nome": "+10 fotos", "preco": 120 },
-      { "id": "mais_20", "nome": "+20 fotos", "preco": 200 },
-      { "id": "galeria_completa", "nome": "Galeria completa", "preco": 280 }
+      {
+        "id": "foto_extra",
+        "nome": "Foto extra",
+        "preco": 5
+      },
+      {
+        "id": "mais_5",
+        "nome": "+5 fotos",
+        "preco": 25
+      },
+      {
+        "id": "mais_10",
+        "nome": "+10 fotos",
+        "preco": 50
+      },
+      {
+        "id": "mais_20",
+        "nome": "+20 fotos",
+        "preco": 100
+      },
+      {
+        "id": "galeria_completa",
+        "nome": "Galeria completa",
+        "preco": 350
+      }
     ],
     "impressos": [
-      { "id": "impressao_1", "nome": "1 impressão 15x21", "preco": 25 },
-      { "id": "impressao_5", "nome": "5 impressões 15x21", "preco": 100 },
-      { "id": "album_20", "nome": "Álbum 20x20", "preco": 330 },
-      { "id": "album_25", "nome": "Álbum 25x25", "preco": 450 },
-      { "id": "quadro_30x40", "nome": "Quadro 30x40", "preco": 220 }
+      {
+        "id": "impressao_1",
+        "nome": "1 impressão 15x21",
+        "preco": 25
+      },
+      {
+        "id": "impressao_5",
+        "nome": "5 impressões 15x21",
+        "preco": 100
+      },
+      {
+        "id": "album_20",
+        "nome": "Álbum 20x20",
+        "preco": 330
+      },
+      {
+        "id": "album_25",
+        "nome": "Álbum 25x25",
+        "preco": 450
+      },
+      {
+        "id": "quadro_30x40",
+        "nome": "Quadro 30x40",
+        "preco": 220
+      }
     ],
     "sessao": [
-      { "id": "look_extra", "nome": "Look extra", "preco": 100 },
-      { "id": "tempo_extra", "nome": "+15 min de ensaio", "preco": 90 },
-      { "id": "pet", "nome": "Pet", "preco": 60 },
-      { "id": "maquiagem", "nome": "Maquiagem parceira", "preco": 200 },
-      { "id": "video_30s", "nome": "Vídeo vertical 30 s", "preco": 250 },
-      { "id": "entrega_24h", "nome": "Entrega em 24 h", "preco": 80 }
+      {
+        "id": "look_extra",
+        "nome": "Look extra",
+        "preco": 100
+      },
+      {
+        "id": "tempo_extra",
+        "nome": "+15 min de ensaio",
+        "preco": 90
+      },
+      {
+        "id": "pet",
+        "nome": "Pet",
+        "preco": 60
+      },
+      {
+        "id": "maquiagem",
+        "nome": "Maquiagem parceira",
+        "preco": 200
+      },
+      {
+        "id": "video_30s",
+        "nome": "Vídeo vertical 30 s",
+        "preco": 250
+      },
+      {
+        "id": "entrega_24h",
+        "nome": "Entrega em 24 h",
+        "preco": 80
+      }
     ]
   },
   "pagamento": {

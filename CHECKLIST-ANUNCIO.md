@@ -87,7 +87,7 @@ Acesse: **business.facebook.com/adsmanager** → **Criar**
 - [ ] **Audience Network desligada**
 - [ ] Número do WhatsApp **confere**
 - [ ] Mensagem pré-preenchida **preenchida**
-- [ ] Texto do anúncio **sem erro de preço** (350/490/690/990)
+- [ ] Texto do anúncio **sem erro de preço** (190/240/290)
 - [ ] Imagem no formato certo (feed 4:5 / story 9:16)
 
 ---

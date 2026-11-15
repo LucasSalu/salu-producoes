@@ -10,7 +10,7 @@ Mensagens prontas para copiar. Regras de ouro no fim.
 
 > Oi [nome]! Tudo bem? Aqui é a Salu 😊
 >
-> Estou abrindo um estúdio de ensaios em casa e comecei com um ensaio de Natal.
+> Abri o estúdio de ensaios da Salu e comecei com um ensaio de Natal.
 > Lembrei de vocês porque sei o quanto essa data significa.
 >
 > Como vocês já são da casa, separei uma condição especial: [preço/bônus].

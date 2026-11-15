@@ -69,7 +69,7 @@ Você perguntou "o que tornaria especial?" e recebeu **ensaio de pet**, **músic
 **Mensagem (para clientes de casamento):**
 
 > "Oi [nome]! Tudo bem? Aqui é a Salu 😊
-> Estou abrindo um estúdio de ensaios em casa e comecei com um ensaio de Natal.
+> Abri o estúdio de ensaios da Salu e comecei com um ensaio de Natal.
 > Lembrei de vocês porque sei o quanto essa data significa.
 > Como vocês já são da casa, separei uma condição especial: [preço/bônus].
 > Quer que eu te mande as datas?"

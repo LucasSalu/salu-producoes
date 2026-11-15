@@ -1,6 +1,6 @@
 # 🎄 Plano de Marketing — Ensaio de Natal da Salu
 
-Estratégia de lançamento do estúdio em casa: stories, posts, co-criação e fechamento.
+Estratégia de lançamento do estúdio da Salu: stories, posts, co-criação e fechamento.
 
 ---
 

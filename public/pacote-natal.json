@@ -1,0 +1,51 @@
+{
+  "marca": "Salu Produções",
+  "produto": "Ensaio de Natal",
+  "preco": 199,
+  "duracao_minutos": 30,
+  "fotos_inclusas": 10,
+  "entrega": "24 horas úteis após a escolha das fotos",
+  "foto_extra": 6,
+  "pet": "incluso, sem custo",
+  "local": "Paulínia, SP",
+  "validade_do_preco": {
+    "limite": "primeiras 40 sessões",
+    "preco_depois": 249
+  },
+  "sinal": {
+    "terca_a_quinta": 50,
+    "sabado_e_domingo": 100,
+    "forma": "Pix"
+  },
+  "pagamento": {
+    "restante": "no dia da sessão",
+    "avista": "10% de desconto",
+    "parcelado": "3x sem juros no cartão"
+  },
+  "avulsos": {
+    "fotos": [
+      { "nome": "+5 fotos", "preco": 30 },
+      { "nome": "+10 fotos", "preco": 60 },
+      { "nome": "+20 fotos", "preco": 120 },
+      { "nome": "Galeria completa", "preco": 350 }
+    ],
+    "impressos": [
+      { "nome": "1 impressão 15x21", "preco": 25 },
+      { "nome": "5 impressões 15x21", "preco": 100 },
+      { "nome": "Álbum 20x20", "preco": 330 },
+      { "nome": "Álbum 25x25", "preco": 450 },
+      { "nome": "Quadro 30x40", "preco": 220 }
+    ],
+    "sessao": [
+      { "nome": "Look extra", "preco": 100 },
+      { "nome": "+15 minutos", "preco": 90 },
+      { "nome": "Vídeo vertical 30 s", "preco": 250 }
+    ]
+  },
+  "contato": {
+    "whatsapp": "https://wa.me/5519993520172",
+    "telefone": "(19) 99352-0172",
+    "instagram": "@salu_producoes",
+    "site": "https://salu-producoes.pages.dev/natal/"
+  }
+}

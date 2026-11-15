@@ -1,0 +1,63 @@
+{
+  "peca": "Arte de anúncio do Ensaio de Natal",
+  "formato": {
+    "largura": 1080,
+    "altura": 1350,
+    "proporcao": "4:5",
+    "uso": "feed do Instagram e anúncio Meta"
+  },
+  "objetivo": "divulgar o ensaio de Natal de R$ 199 e levar ao WhatsApp",
+  "estilo": {
+    "direcao": "editorial minimalista, com cara de fotografia analógica",
+    "referencias": [
+      "revista de arquitetura e decoração",
+      "fotografia still life de estúdio",
+      "papel fosco impresso"
+    ],
+    "sensacao": "calmo, quente, artesanal, sem excesso"
+  },
+  "paleta": {
+    "fundo": "#F6F1E6",
+    "texto": "#1D1A16",
+    "destaque": "#5E2333",
+    "acento": "#C9A227",
+    "regra": "no máximo 3 cores visíveis"
+  },
+  "tipografia": {
+    "titulo": "serifada clássica (Playfair Display)",
+    "apoio": "sans espaçada em caixa alta (Montserrat)",
+    "assinatura": "script (Great Vibes), só na assinatura",
+    "regra": "título com no máximo 4 palavras"
+  },
+  "composicao": {
+    "zona_de_texto": "dois terços inferiores ou laterais livres",
+    "foto": "still life ou canto de ambiente, nunca centralizado e simétrico",
+    "texto": "alinhado à esquerda, com respiro grande",
+    "elementos": "no máximo 3 objetos na cena"
+  },
+  "copy": {
+    "linha_1": "ENSAIO DE NATAL",
+    "linha_2": "R$ 199",
+    "linha_3": "30 minutos · 10 fotos · entrega em 24h",
+    "linha_4": "Salu Produções",
+    "cta_opcional": "Reserve pelo WhatsApp"
+  },
+  "proibicoes": [
+    "texto gerado por IA (todo texto deve ser aplicado depois, à mão)",
+    "brilhos, glitter e estrelinhas espalhadas",
+    "bolas de bokeh por toda a imagem",
+    "árvore de Natal perfeitamente simétrica e centralizada",
+    "render 3D, CGI ou aspecto de plástico",
+    "cores saturadas, neon ou degradê roxo",
+    "lens flare, neve artificial, enfeites flutuando",
+    "estética de template de Canva com moldura e renas"
+  ],
+  "entrega": {
+    "quantidade": 3,
+    "variacoes": [
+      "galho de pinheiro em vaso fosco e um presente vinho",
+      "canto de sala com árvore fora de quadro e luz de janela",
+      "detalhe de fita e agulhas de pinheiro com sombra suave"
+    ]
+  }
+}

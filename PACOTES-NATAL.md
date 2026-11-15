@@ -1,29 +1,32 @@
-# 🎄 Preços — Ensaio de Natal (lote + avulso)
+# 🎄 Preços — Ensaio de Natal
 
-Modelo novo: entrada acessível para encher agenda, com 10 fotos inclusas e venda avulsa na escolha.
+Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa na escolha.
 
 ---
 
-## 1. O que entra em todo lote
+## 1. O que entra em todas as opções
 
-- **20 minutos** de ensaio no estúdio
+- **30 minutos** de ensaio no estúdio
 - 1 look, 1 cenário de Natal
 - Direção de poses
-- **10 fotos editadas** em alta resolução
+- Fotos editadas em alta resolução
 - Galeria online
 
 ---
 
-## 2. Os 3 lotes (vagas limitadas)
+## 2. As três opções (preço de inauguração)
 
-| Lote | Vagas | Preço | Observação |
+| Opção | Fotos | Preço | Por foto |
 | --- | --- | --- | --- |
-| **Lote 1** | 8 | **R$ 250** | Abertura |
-| **Lote 2** | 8 | **R$ 300** | Depois de esgotar o 1 |
-| **Lote 3** | 8 | **R$ 350** | Último lote |
-| Tabela cheia | — | **R$ 400** | Depois do Lote 3 |
+| **Presente** | 8 | **R$ 199** | R$ 24,90 |
+| **Clássico** | 15 | **R$ 230** | R$ 15,33 |
+| **Completo** | 20 | **R$ 250** | R$ 12,50 |
 
-> Referência de mercado: estúdios cobram de R$ 210 (lote promocional, 10 fotos digitais) a R$ 400 (10 fotos com impressão, 1h). O Lote 1 a R$ 250 fica competitivo sem desvalorizar.
+- O ensaio é o mesmo nos três. Muda só quantas fotos a pessoa leva.
+- Preço de inauguração válido para as **primeiras 40 sessões**.
+- Depois: **R$ 249 / R$ 289 / R$ 319**.
+
+> Por que funciona: o Presente (R$ 199) é a porta de entrada. Clássico e Completo entregam muito mais foto por real, então a maioria escolhe o Completo. Quem quer o mínimo paga 199; quem quer volume leva 250.
 
 ---
 
@@ -33,25 +36,25 @@ Modelo novo: entrada acessível para encher agenda, com 10 fotos inclusas e vend
 | Item | Preço |
 | --- | --- |
 | 1 foto extra | R$ 20 |
-| +5 fotos | R$ 80 |
-| +10 fotos | R$ 140 |
-| +20 fotos | R$ 240 |
-| Galeria completa | R$ 350 |
+| +5 fotos | R$ 70 |
+| +10 fotos | R$ 120 |
+| +20 fotos | R$ 200 |
+| Galeria completa | R$ 280 |
 
 ### Impressos
 | Item | Preço |
 | --- | --- |
 | 1 impressão 15×21 | R$ 25 |
 | 5 impressões 15×21 | R$ 100 |
-| Álbum 20×20 | R$ 350 |
-| Álbum 25×25 | R$ 480 |
+| Álbum 20×20 | R$ 330 |
+| Álbum 25×25 | R$ 450 |
 | Quadro 30×40 | R$ 220 |
 
 ### Na sessão
 | Item | Preço |
 | --- | --- |
 | Look extra | R$ 100 |
-| +15 min de ensaio | R$ 100 |
+| +15 min de ensaio | R$ 90 |
 | Pet | R$ 60 |
 | Maquiagem (parceira) | R$ 200 |
 | Vídeo vertical 30 s | R$ 250 |
@@ -64,82 +67,70 @@ Modelo novo: entrada acessível para encher agenda, com 10 fotos inclusas e vend
 | Regra | Valor |
 | --- | --- |
 | Sinal para reservar | **R$ 100** (Pix) |
-| Base do lote | Pago no dia da sessão |
-| Avulso | Pago na escolha das fotos |
+| Restante | No dia da sessão |
+| Avulso | Na escolha das fotos |
 | À vista | 10% de desconto |
 | Parcelado | 3× sem juros (cartão) |
 
-> Sinal conversível em vale-presente se precisar remarcar. Reduz objeção e ainda vende de novo.
-
 ---
 
-## 5. Vale-presente
+## 5. Capacidade para volume
 
-- Vale para qualquer lote ou compra avulsa
-- Cartão impresso + envelope
-- Validade de 6 meses
-- A pessoa escolhe a data depois
-
----
-
-## 6. Políticas
-
-| Situação | Regra |
+| Dia | Horários possíveis |
 | --- | --- |
-| Atraso | O tempo atrasado é descontado da sessão |
-| Remarcação | Até 24 h antes, 1 remarcação gratuita |
-| Entrega | Até 5 dias úteis |
-| Garantia do Natal | Sessões até 20/12 com entrega até 24/12 |
-| Uso de imagem | Autorização assinada no dia (LGPD) |
+| Terça a sexta | 3 por noite (18h às 21h) |
+| Sábado e domingo | 8 a 10 por dia |
+| **Por semana** | **20 a 25 sessões** |
+| **Em 5 semanas** | **100 a 125 sessões** |
+
+Com 30 min por sessão e 10 min de intervalo, cada vaga ocupa 40 minutos.
 
 ---
 
-## 7. Por que esse modelo funciona
-
-1. **Entrada de R$ 250** com 10 fotos fica no preço de mercado e derruba a barreira de entrada.
-2. **10 fotos inclusas** já entregam valor suficiente para a pessoa gostar e querer mais.
-3. **O lucro vem do avulso**, não da base. Cada sessão pode virar R$ 600 ou mais.
-4. **Vagas numeradas** criam urgência honesta e fazem o preço subir sozinho.
-
-> ⚠️ O risco: se você não vender o avulso, o modelo vira prejuízo. **A conversa de escolha das fotos é o momento mais importante do atendimento.**
-
----
-
-## 8. A conta dos R$ 20.000
+## 6. A conta dos R$ 20.000
 
 | Fonte | Volume | Ticket | Total |
 | --- | --- | --- | --- |
-| Base dos lotes (mix 1/2/3) | 33 sessões | R$ 300 | R$ 9.900 |
-| + Fotos avulsas | 22 sessões | R$ 250 | R$ 5.500 |
-| + Álbuns | 8 álbuns | R$ 350 | R$ 2.800 |
-| + Impressões | 9 pedidos | R$ 100 | R$ 900 |
-| + Extras (pet, vídeo, 24 h) | 12 pedidos | R$ 85 | R$ 1.020 |
-| **Total** | **33 sessões** | | **R$ 20.120** |
+| Base das opções (mix 20/30/50) | 54 sessões | R$ 234 | R$ 12.636 |
+| Fotos avulsas | 27 sessões | R$ 120 | R$ 3.240 |
+| Álbuns | 7 | R$ 330 | R$ 2.310 |
+| Impressões | 9 | R$ 100 | R$ 900 |
+| Extras | 11 | R$ 90 | R$ 990 |
+| **Total** | **54 sessões** | | **R$ 20.076** |
 
-33 sessões em 5 semanas = 6 a 7 por semana. Cabe na agenda.
+**54 sessões em 5 semanas = 11 por semana.** Cabe com folga na agenda.
+
+Com 100 sessões, a receita estimada passa de **R$ 31.000**.
 
 ---
 
-## 9. Textos prontos
+## 7. O gargalo real
+
+Com 100 sessões você edita **até 2.000 fotos** em 5 semanas. Sem preset em lote, o prazo estoura.
+
+- 1 preset de correção + 1 de cor
+- Edição em blocos de 10 fotos por sessão
+- Entrega em até 5 dias úteis, avisando o prazo real
+
+---
+
+## 8. Textos prontos
 
 ### Legenda do post
 
-> Este Natal, o estúdio da Salu abre com um lote especial 🎄
+> Este Natal, o estúdio da Salu abre com preço de inauguração 🎄
 >
-> 20 minutos de ensaio e 10 fotos inclusas, a partir de **R$ 250**.
-> O Lote 1 tem 8 vagas. Depois, o preço sobe.
+> 30 minutos de ensaio, com 8, 15 ou 20 fotos inclusas.
+> A partir de **R$ 199** (primeiras 40 sessões).
 >
 > Quer mais fotos, impressão ou álbum? Você escolhe na hora, sem pacote fechado.
 >
 > Reserva pelo WhatsApp.
 
-### Primeira mensagem do WhatsApp
+### Proposta no WhatsApp
 
-> Oi, [nome]! Que bom que você quer viver esse Natal com a gente 🎄
-> Me conta: é individual, casal ou família? E tem alguma data em mente?
-
-### Proposta
-
-> Perfeito! O Lote [X] está em [preço] e inclui 20 min de ensaio + 10 fotos editadas.
+> Perfeito! Temos três opções, todas com 30 minutos de ensaio:
+> Presente (8 fotos) R$ 199 · Clássico (15 fotos) R$ 230 · Completo (20 fotos) R$ 250.
+>
 > Para garantir a vaga, o sinal é R$ 100 no Pix. O restante fica para o dia da sessão.
 > Depois da sessão eu te mostro as fotos e você decide se quer levar mais alguma coisa.

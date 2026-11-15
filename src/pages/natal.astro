@@ -8,48 +8,48 @@ import { CONTACT } from '../consts';
 const wa = (msg: string) =>
   `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(msg)}`;
 
-const lotes = [
+const opcoes = [
   {
-    nome: 'Lote 1',
+    nome: 'Presente',
+    preco: '199',
+    fotos: '8 fotos',
+    itens: ['30 min de ensaio', '1 look · 1 cenário', '8 fotos editadas', 'galeria online'],
+    destaque: false,
+  },
+  {
+    nome: 'Clássico',
+    preco: '230',
+    fotos: '15 fotos',
+    itens: ['30 min de ensaio', '1 look · 1 cenário', '15 fotos editadas', 'galeria online'],
+    destaque: false,
+  },
+  {
+    nome: 'Completo',
     preco: '250',
-    vagas: '8 vagas',
-    itens: ['20 min de ensaio', '1 look · 1 cenário', '10 fotos editadas'],
-    destaque: false,
-  },
-  {
-    nome: 'Lote 2',
-    preco: '300',
-    vagas: '8 vagas',
-    itens: ['20 min de ensaio', '1 look · 1 cenário', '10 fotos editadas'],
+    fotos: '20 fotos',
+    itens: ['30 min de ensaio', '1 look · 1 cenário', '20 fotos editadas', 'galeria online'],
     destaque: true,
-  },
-  {
-    nome: 'Lote 3',
-    preco: '350',
-    vagas: '8 vagas',
-    itens: ['20 min de ensaio', '1 look · 1 cenário', '10 fotos editadas'],
-    destaque: false,
   },
 ];
 
 const fotos = [
-  ['+5 fotos', 'R$ 80'],
-  ['+10 fotos', 'R$ 140'],
-  ['+20 fotos', 'R$ 240'],
-  ['Galeria completa', 'R$ 350'],
+  ['+5 fotos', 'R$ 70'],
+  ['+10 fotos', 'R$ 120'],
+  ['+20 fotos', 'R$ 200'],
+  ['Galeria completa', 'R$ 280'],
 ];
 
 const impressos = [
   ['1 impressão 15×21', 'R$ 25'],
   ['5 impressões 15×21', 'R$ 100'],
-  ['Álbum 20×20', 'R$ 350'],
-  ['Álbum 25×25', 'R$ 480'],
+  ['Álbum 20×20', 'R$ 330'],
+  ['Álbum 25×25', 'R$ 450'],
   ['Quadro 30×40', 'R$ 220'],
 ];
 
 const extras = [
   ['Look extra', 'R$ 100'],
-  ['+15 min de ensaio', 'R$ 100'],
+  ['+15 min de ensaio', 'R$ 90'],
   ['Pet', 'R$ 60'],
   ['Maquiagem parceira', 'R$ 200'],
   ['Vídeo vertical 30 s', 'R$ 250'],
@@ -57,9 +57,9 @@ const extras = [
 ];
 
 const passos = [
-  { n: '01', t: 'Reserva', d: 'Sinal de R$ 100 no Pix garante a sua vaga no lote.' },
-  { n: '02', t: 'Sessão', d: '20 minutos no estúdio. Eu dirijo as poses.' },
-  { n: '03', t: 'Escolha', d: 'Você vê as fotos e decide o que levar: mais fotos, impressão, álbum.' },
+  { n: '01', t: 'Reserva', d: 'Sinal de R$ 100 no Pix garante a sua vaga.' },
+  { n: '02', t: 'Sessão', d: '30 minutos no estúdio. Eu dirijo as poses.' },
+  { n: '03', t: 'Escolha', d: 'Você vê as fotos e decide o que levar: mais fotos, impressão ou álbum.' },
   { n: '04', t: 'Entrega', d: 'Em até 5 dias úteis, prontas para o Natal.' },
 ];
 
@@ -69,12 +69,16 @@ const faq = [
     a: 'O estúdio da Salu fica em Paulínia. Após a reserva, envio o endereço completo e as instruções de chegada.',
   },
   {
-    q: 'O que é o lote?',
-    a: 'É a vaga de inauguração. O Lote 1 custa R$ 250, o Lote 2 R$ 300 e o Lote 3 R$ 350. Cada um tem 8 vagas e o preço sobe a cada lote. Depois do Lote 3, a tabela fica em R$ 400.',
+    q: 'Quais são as opções?',
+    a: 'Presente: 8 fotos por R$ 199. Clássico: 15 fotos por R$ 230. Completo: 20 fotos por R$ 250. Todos com 30 minutos de ensaio.',
+  },
+  {
+    q: 'Até quando vale esse preço?',
+    a: 'É o preço de inauguração, válido para as primeiras 40 sessões. Depois sobe para R$ 249, R$ 289 e R$ 319.',
   },
   {
     q: 'Quantas fotos eu recebo?',
-    a: 'Cada lote inclui 10 fotos editadas. Na escolha, você pode levar mais: +5 por R$ 80, +10 por R$ 140, +20 por R$ 240 ou a galeria completa por R$ 350.',
+    a: 'Depende da opção: 8, 15 ou 20. Na escolha, você pode adicionar mais: +5 por R$ 70, +10 por R$ 120, +20 por R$ 200 ou a galeria completa por R$ 280.',
   },
   {
     q: 'Posso comprar álbum depois?',
@@ -82,7 +86,7 @@ const faq = [
   },
   {
     q: 'Quantas pessoas podem participar?',
-    a: 'Todos os lotes recebem individual, casal, grupo ou família. O tempo de ensaio é de 20 minutos.',
+    a: 'Individual, casal, grupo ou família. O tempo de ensaio é de 30 minutos.',
   },
   {
     q: 'Posso levar meu pet?',
@@ -100,7 +104,7 @@ const linhas = (tabela: string[][]) =>
 
 <Base
   title="Ensaio de Natal | Estúdio Salu Produções"
-  description="Ensaio de Natal no estúdio da Salu Produções em Paulínia. Lotes a partir de R$ 250 com 10 fotos inclusas e opção de comprar mais fotos, álbum e impressões."
+  description="Ensaio de Natal no estúdio da Salu Produções em Paulínia. 30 minutos de ensaio, com 8, 15 ou 20 fotos, a partir de R$ 199."
   image="/og-natal.jpg"
 >
   <Header />
@@ -132,17 +136,17 @@ const linhas = (tabela: string[][]) =>
           O olhar do casamento,<br />agora no Natal.
         </h1>
         <p class="mt-7 max-w-xl text-lg leading-relaxed text-cream/70" data-reveal>
-          Vinte minutos de ensaio no estúdio da Salu, com dez fotos inclusas. Depois você
-          escolhe o que levar: mais fotos, impressão ou álbum.
+          Trinta minutos de ensaio no estúdio da Salu, com 8, 15 ou 20 fotos inclusas.
+          Você escolhe quantas quer levar.
         </p>
         <div class="mt-10 flex flex-wrap gap-4" data-reveal>
-          <a href={wa('Olá! Quero garantir minha vaga no lote do ensaio de Natal 🎄')} target="_blank" rel="noopener" class="btn btn-gold">
+          <a href={wa('Olá! Quero garantir minha vaga no ensaio de Natal 🎄')} target="_blank" rel="noopener" class="btn btn-gold">
             Garantir minha vaga
           </a>
-          <a href="#lotes" class="btn btn-ghost">Ver os lotes</a>
+          <a href="#opcoes" class="btn btn-ghost">Ver as opções</a>
         </div>
         <p class="mt-8 text-sm text-cream/50" data-reveal>
-          Lote 1 · <strong class="text-champagne">R$ 250</strong> · 8 vagas
+          Preço de inauguração · a partir de <strong class="text-champagne">R$ 199</strong>
         </p>
       </div>
     </section>
@@ -153,8 +157,8 @@ const linhas = (tabela: string[][]) =>
         {[
           ['4 anos', 'fotografando casamentos'],
           ['Estúdio', 'em Paulínia'],
+          ['30 min', 'de ensaio no estúdio'],
           ['Até 5 dias', 'para receber as fotos'],
-          ['8 vagas', 'no Lote 1 por R$ 250'],
         ].map(([titulo, sub]) => (
           <div>
             <p class="font-display text-2xl text-champagne md:text-3xl">{titulo}</p>
@@ -184,7 +188,7 @@ const linhas = (tabela: string[][]) =>
             <p class="font-display text-4xl text-gold/70">02</p>
             <h3 class="mt-6 font-display text-xl">Você escolhe o tamanho</h3>
             <p class="mt-3 text-sm leading-relaxed text-cream/60">
-              O lote já inclui 10 fotos. Se quiser mais, compra avulso, sem pacote fechado.
+              8, 15 ou 20 fotos. Se quiser mais depois, compra avulso, sem pacote fechado.
             </p>
           </article>
           <article class="border border-white/10 bg-surface/60 p-7">
@@ -198,20 +202,20 @@ const linhas = (tabela: string[][]) =>
       </div>
     </section>
 
-    <!-- LOTES -->
-    <section id="lotes" class="px-6 py-24 md:py-28" style="background: var(--color-surface);">
+    <!-- OPCOES -->
+    <section id="opcoes" class="px-6 py-24 md:py-28" style="background: var(--color-surface);">
       <div class="mx-auto max-w-7xl">
-        <p class="label mb-4" data-reveal>Lotes de inauguração</p>
+        <p class="label mb-4" data-reveal>Opções de inauguração</p>
         <h2 class="max-w-2xl text-balance font-display text-[clamp(2rem,4.4vw,3.4rem)] leading-tight" data-reveal>
-          Entre pelo menor preço.<br />Leve o que quiser.
+          Trinta minutos.<br />Escolha quantas fotos levar.
         </h2>
         <p class="mt-5 max-w-2xl text-cream/60" data-reveal>
-          Cada lote tem 8 vagas e inclui 20 minutos de ensaio com 10 fotos editadas. O preço
-          sobe a cada lote. Depois do Lote 3, a tabela fica em R$ 400.
+          O ensaio é o mesmo para todos: 30 minutos no estúdio, com direção de poses. O que
+          muda é quantas fotos você leva.
         </p>
 
         <div class="mt-14 grid gap-5 md:grid-cols-3" data-reveal-group>
-          {lotes.map((p) => (
+          {opcoes.map((p) => (
             <article
               class:list={[
                 'relative flex flex-col border p-7',
@@ -223,16 +227,16 @@ const linhas = (tabela: string[][]) =>
                   class="absolute -top-3 left-7 px-3 py-1 text-[0.6rem] uppercase tracking-[0.18em]"
                   style="background: var(--color-gold); color: #0a0a0b;"
                 >
-                  Mais disputado
+                  Melhor valor
                 </span>
               )}
-              <p class="label">{p.vagas} disponíveis</p>
+              <p class="label">30 min · {p.fotos}</p>
               <h3 class="mt-3 font-display text-2xl">{p.nome}</h3>
               <p class="mt-5 flex items-baseline gap-2">
                 <span class="font-sans text-[0.6rem] uppercase tracking-[0.2em] text-champagne">R$</span>
                 <span class="font-display text-4xl leading-none">{p.preco}</span>
               </p>
-              <p class="mt-2 text-xs uppercase tracking-[0.12em] text-cream/40">sessão + 10 fotos</p>
+              <p class="mt-2 text-xs uppercase tracking-[0.12em] text-cream/40">preço de inauguração</p>
               <ul class="mt-6 flex-1 space-y-3 text-sm text-cream/70">
                 {p.itens.map((item) => (
                   <li class="flex gap-3">
@@ -242,16 +246,20 @@ const linhas = (tabela: string[][]) =>
                 ))}
               </ul>
               <a
-                href={wa(`Olá! Quero garantir uma vaga no ${p.nome} do ensaio de Natal 🎄`)}
+                href={wa(`Olá! Quero reservar a opção ${p.nome} do ensaio de Natal 🎄`)}
                 target="_blank"
                 rel="noopener"
                 class:list={['btn mt-8 w-full', p.destaque ? 'btn-gold' : 'btn-ghost']}
               >
-                Garantir vaga
+                Quero esta
               </a>
             </article>
           ))}
         </div>
+
+        <p class="mt-10 text-center text-sm text-cream/50" data-reveal>
+          Preço de inauguração válido para as primeiras 40 sessões. Depois sobe para R$ 249, R$ 289 e R$ 319.
+        </p>
       </div>
     </section>
 
@@ -318,7 +326,7 @@ const linhas = (tabela: string[][]) =>
             presentear, em até 6 meses, com cartão impresso e envelope.
           </p>
           <ul class="mt-6 space-y-2 text-sm text-cream/60">
-            <li>· Vale para qualquer lote ou compra avulsa</li>
+            <li>· Vale para qualquer opção ou compra avulsa</li>
             <li>· Cartão físico + envelope</li>
             <li>· A pessoa escolhe a data</li>
           </ul>
@@ -379,7 +387,7 @@ const linhas = (tabela: string[][]) =>
     <!-- CTA FINAL -->
     <section class="px-6 py-28 text-center md:py-36" style="background: var(--color-surface);">
       <div class="mx-auto max-w-3xl" data-reveal>
-        <p class="label mb-6">Lote 1 · R$ 250 · 8 vagas</p>
+        <p class="label mb-6">A partir de R$ 199 · 30 min</p>
         <h2 class="text-balance font-display text-[clamp(2.2rem,5.2vw,4.2rem)] leading-[1.02]">
           O Natal passa.<br />A foto fica.
         </h2>
@@ -387,7 +395,7 @@ const linhas = (tabela: string[][]) =>
           Sessões até 20/12 com entrega garantida antes do dia 24.
         </p>
         <div class="mt-12 flex flex-wrap justify-center gap-4">
-          <a href={wa('Olá! Quero garantir uma vaga no lote do ensaio de Natal 🎄')} target="_blank" rel="noopener" class="btn btn-gold">
+          <a href={wa('Olá! Quero garantir minha vaga no ensaio de Natal 🎄')} target="_blank" rel="noopener" class="btn btn-gold">
             Reservar minha vaga
           </a>
           <a

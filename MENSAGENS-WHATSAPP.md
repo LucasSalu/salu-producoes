@@ -156,7 +156,7 @@ Mensagens prontas para copiar. Regras de ouro no fim.
 | Atalho | Texto |
 | --- | --- |
 | `/datas` | "Tenho estas datas: [lista]. Qual combina com você?" |
-| `/precos` | "Lote 1 R$ 250 · Lote 2 R$ 300 · Lote 3 R$ 350. Cada lote inclui 10 fotos. Quer que eu te explique?" |
+| `/precos` | "Presente R$ 199 (8 fotos) · Clássico R$ 230 (15 fotos) · Completo R$ 250 (20 fotos). Todos com 30 min. Quer que eu te explique?" |
 | `/sinal` | "Chave Pix: [chave]. Sinal R$ 100 — com ele a data fica bloqueada." |
 | `/vestir` | "Guia do que vestir: [link]. Em resumo: tons neutros e um look festivo." |
 | `/endereco` | "Estúdio: [endereço]. Estacionamento na rua." |
@@ -177,7 +177,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 >
 > Sem sair do prédio: é descer e fotografar. Ótimo para criança pequena, gestante, idoso ou pet.
 >
-> O Lote 1 está em R$ 250, com 8 vagas. Depois o preço sobe.
+> A opção Presente está em R$ 199, com 8 fotos e 30 minutos de ensaio.
 > Pacotes e fotos: salu-producoes.pages.dev/natal
 >
 > Quem quiser, me chama no privado 🎄
@@ -189,7 +189,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Abri o estúdio da Salu e a estreia é com ensaio de Natal: individual, casal ou família.
 >
 > Ambiente reservado, entrega antes do Natal.
-> O Lote 1 está em R$ 250, com 8 vagas.
+> A opção Presente está em R$ 199, com 8 fotos e 30 minutos.
 >
 > Fotos e pacotes: salu-producoes.pages.dev/natal
 > Me chama no privado para reservar 🎄
@@ -203,7 +203,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Ambiente reservado, com direção de poses. Sem trânsito e sem shopping lotado com criança cansada.
 >
 > De 15 a 60 minutos, com entrega antes do Natal.
-> O Lote 1 está em R$ 250, com 8 vagas.
+> A opção Presente está em R$ 199, com 8 fotos e 30 minutos.
 >
 > Fotos: salu-producoes.pages.dev/natal 🎄
 
@@ -211,7 +211,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 
 > **[VENDA] Ensaio de Natal em estúdio, Paulínia** 📸
 >
-> Individual, casal ou família. A partir de R$ 250 (Lote 1, 8 vagas).
+> Individual, casal ou família. A partir de R$ 199 (8 fotos, 30 min).
 > Fotos editadas e entrega antes do Natal.
 >
 > Pacotes: salu-producoes.pages.dev/natal
@@ -222,7 +222,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Gente, novidade: estou com o estúdio da Salu aberto para ensaio de Natal 🎄
 >
 > Quem quiser fazer individual, casal ou família, me chama que eu organizo.
-> O Lote 1 está em R$ 250.
+> A opção Presente está em R$ 199, com 8 fotos.
 >
 > Se conhecer alguém que possa se interessar, me indica 🙏
 

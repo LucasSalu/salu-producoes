@@ -111,7 +111,7 @@ Mensagens prontas para copiar. Regras de ouro no fim.
 ### Confirmação (após o sinal)
 
 > Recebido! ✅ Sua data está garantida: [dia], [hora].
-> Endereço: [endereço completo] — é o estúdio em casa, tem estacionamento na rua.
+> Endereço: [endereço completo], no [bairro]. Tem estacionamento na rua.
 > Vou te mandar o guia do que vestir. Qualquer dúvida, me chama!
 
 ### Lembrete 24 h antes
@@ -156,7 +156,7 @@ Mensagens prontas para copiar. Regras de ouro no fim.
 | Atalho | Texto |
 | --- | --- |
 | `/datas` | "Tenho estas datas: [lista]. Qual combina com você?" |
-| `/precos` | "Presente R$ 199 (10 fotos) · Clássico R$ 230 (15 fotos) · Completo R$ 250 (20 fotos). Todos com 30 min. Quer que eu te explique?" |
+| `/precos` | "Ensaio de Natal: R$ 199, 30 min, 10 fotos e entrega em 24h úteis. Quer que eu te explique?" |
 | `/sinal` | "Chave Pix: [chave]. Sinal R$ 100 — com ele a data fica bloqueada." |
 | `/vestir` | "Guia do que vestir: [link]. Em resumo: tons neutros e um look festivo." |
 | `/endereco` | "Estúdio: [endereço]. Estacionamento na rua." |
@@ -177,7 +177,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 >
 > Sem sair do prédio: é descer e fotografar. Ótimo para criança pequena, gestante, idoso ou pet.
 >
-> A opção Presente está em R$ 199, com 10 fotos e 30 minutos de ensaio.
+> O ensaio de Natal está em R$ 199: 30 minutos, 10 fotos e entrega em 24h úteis.
 > Pacotes e fotos: salu-producoes.pages.dev/natal
 >
 > Quem quiser, me chama no privado 🎄
@@ -189,7 +189,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Abri o estúdio da Salu e a estreia é com ensaio de Natal: individual, casal ou família.
 >
 > Ambiente reservado, entrega antes do Natal.
-> A opção Presente está em R$ 199, com 10 fotos e 30 minutos.
+> O ensaio de Natal está em R$ 199: 30 minutos, 10 fotos e entrega em 24h úteis.
 >
 > Fotos e pacotes: salu-producoes.pages.dev/natal
 > Me chama no privado para reservar 🎄
@@ -203,7 +203,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Ambiente reservado, com direção de poses. Sem trânsito e sem shopping lotado com criança cansada.
 >
 > De 15 a 60 minutos, com entrega antes do Natal.
-> A opção Presente está em R$ 199, com 10 fotos e 30 minutos.
+> O ensaio de Natal está em R$ 199: 30 minutos, 10 fotos e entrega em 24h úteis.
 >
 > Fotos: salu-producoes.pages.dev/natal 🎄
 
@@ -211,7 +211,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 
 > **[VENDA] Ensaio de Natal em estúdio, Paulínia** 📸
 >
-> Individual, casal ou família. A partir de R$ 199 (10 fotos, 30 min).
+> Individual, casal ou família. R$ 199 (30 min, 10 fotos, entrega em 24h úteis).
 > Fotos editadas e entrega antes do Natal.
 >
 > Pacotes: salu-producoes.pages.dev/natal
@@ -222,7 +222,7 @@ Link para incluir: **https://salu-producoes.pages.dev/natal/**
 > Gente, novidade: estou com o estúdio da Salu aberto para ensaio de Natal 🎄
 >
 > Quem quiser fazer individual, casal ou família, me chama que eu organizo.
-> A opção Presente está em R$ 199, com 10 fotos.
+> O ensaio de Natal está em R$ 199: 30 minutos, 10 fotos e entrega em 24h úteis.
 >
 > Se conhecer alguém que possa se interessar, me indica 🙏
 

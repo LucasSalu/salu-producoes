@@ -1,44 +1,35 @@
-# 🎄 Preços — Ensaio de Natal
+# 🎄 Preços — Ensaio de Natal (pacote único)
 
-Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa na escolha.
-
----
-
-## 1. O que entra em todas as opções
-
-- **30 minutos** de ensaio no estúdio
-- 1 look, 1 cenário de Natal
-- Direção de poses
-- Fotos editadas em alta resolução
-- Galeria online
+Um preço, tudo incluso, entrega rápida. Volume.
 
 ---
 
-## 2. As três opções (preço de inauguração)
+## 1. O pacote
 
-| Opção | Fotos | Preço | Por foto |
-| --- | --- | --- | --- |
-| **Presente** | 10 | **R$ 199** | R$ 19,90 |
-| **Clássico** | 15 | **R$ 230** | R$ 15,33 |
-| **Completo** | 20 | **R$ 250** | R$ 12,50 |
+| Item | Valor |
+| --- | --- |
+| **Ensaio de Natal** | **R$ 199** |
+| Tempo | 30 minutos |
+| Fotos inclusas | 10 editadas |
+| Entrega | 24 horas úteis após a escolha das fotos |
+| Look | 1 look, 1 cenário |
+| Pet | bem-vindo, sem custo extra |
+| Sinal | R$ 50 (terça a quinta) · R$ 100 (fim de semana) |
 
-- O ensaio é o mesmo nos três. Muda só quantas fotos a pessoa leva.
-- Preço de inauguração válido para as **primeiras 40 sessões**.
-- Depois: **R$ 249 / R$ 289 / R$ 319**.
-
-> Por que funciona: o Presente (R$ 199) é a porta de entrada. Clássico e Completo entregam muito mais foto por real, então a maioria escolhe o Completo. Quem quer o mínimo paga 199; quem quer volume leva 250.
+- Preço de inauguração para as **primeiras 40 sessões**
+- Depois: **R$ 249**
 
 ---
 
-## 3. Venda avulsa (na escolha das fotos)
+## 2. Avulso (opcional, na escolha das fotos)
 
 ### Fotos
 | Item | Preço |
 | --- | --- |
-| 1 foto extra | R$ 5 |
-| +5 fotos | R$ 25 |
-| +10 fotos | R$ 50 |
-| +20 fotos | R$ 100 |
+| 1 foto extra | R$ 6 |
+| +5 fotos | R$ 30 |
+| +10 fotos | R$ 60 |
+| +20 fotos | R$ 120 |
 | Galeria completa | R$ 350 |
 
 ### Impressos
@@ -56,15 +47,16 @@ Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa n
 | Look extra | R$ 100 |
 | +15 min de ensaio | R$ 90 |
 | Vídeo vertical 30 s | R$ 250 |
-| Entrega em 24 h | R$ 80 |
+
+> Maquiagem não está inclusa. Indique uma maquiadora parceira.
 
 ---
 
-## 4. Pagamento
+## 3. Pagamento
 
 | Regra | Valor |
 | --- | --- |
-| Sinal | **R$ 50** de terça a quinta · **R$ 100** no fim de semana (Pix) |
+| Sinal | **R$ 50** (terça a quinta) · **R$ 100** (sábado e domingo), no Pix |
 | Restante | No dia da sessão |
 | Avulso | Na escolha das fotos |
 | À vista | 10% de desconto |
@@ -72,16 +64,27 @@ Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa n
 
 ---
 
-## 5. Capacidade para volume
+## 4. Fluxo da entrega em 24h
 
-| Dia | Horários possíveis |
+1. Sessão de 30 minutos
+2. Galeria de seleção enviada no mesmo dia
+3. Cliente escolhe as extras e paga o Pix
+4. **O prazo de 24h úteis começa a contar da escolha**, não da sessão
+
+> Se o cliente demorar para escolher, o prazo não estoura.
+
+---
+
+## 5. Capacidade
+
+| Dia | Sessões |
 | --- | --- |
 | Terça a sexta | 3 por noite (18h às 21h) |
 | Sábado e domingo | 8 a 10 por dia |
-| **Por semana** | **20 a 25 sessões** |
-| **Em 5 semanas** | **100 a 125 sessões** |
+| **Por semana** | **20 a 25** |
+| **Em 5 semanas** | **100 a 125** |
 
-Com 30 min por sessão e 10 min de intervalo, cada vaga ocupa 40 minutos.
+Cada vaga ocupa 40 minutos (30 de ensaio + 10 de troca).
 
 ---
 
@@ -89,48 +92,37 @@ Com 30 min por sessão e 10 min de intervalo, cada vaga ocupa 40 minutos.
 
 | Fonte | Volume | Ticket | Total |
 | --- | --- | --- | --- |
-| Base das opções (mix 20/30/50) | 54 sessões | R$ 234 | R$ 12.636 |
-| Fotos avulsas | 27 sessões | R$ 120 | R$ 3.240 |
-| Álbuns | 7 | R$ 330 | R$ 2.310 |
+| Pacote | 75 sessões | R$ 199 | R$ 14.925 |
+| Fotos extras | 30 sessões | R$ 30 | R$ 900 |
+| Álbuns | 8 | R$ 330 | R$ 2.640 |
 | Impressões | 9 | R$ 100 | R$ 900 |
-| Extras | 11 | R$ 90 | R$ 990 |
-> Pet é bem-vindo sem custo extra. A maquiagem não está inclusa: indique uma parceira.
+| Extras | 10 | R$ 90 | R$ 900 |
+| **Total** | **75 sessões** | | **R$ 20.265** |
 
-| **Total** | **54 sessões** | | **R$ 20.076** |
+75 sessões em 5 semanas = 15 por semana. Com 100 sessões, a receita estimada passa de **R$ 27.000**.
 
-**54 sessões em 5 semanas = 11 por semana.** Cabe com folga na agenda.
-
-Com 100 sessões, a receita estimada passa de **R$ 31.000**.
+> Com preço único, o álbum é o que faz diferença. Vender álbum para 1 em cada 8 clientes já muda a conta.
 
 ---
 
-## 7. O gargalo real
-
-Com 100 sessões você edita **até 2.000 fotos** em 5 semanas. Sem preset em lote, o prazo estoura.
-
-- 1 preset de correção + 1 de cor
-- Edição em blocos de 10 fotos por sessão
-- Entrega em até 5 dias úteis, avisando o prazo real
-
----
-
-## 8. Textos prontos
+## 7. Textos prontos
 
 ### Legenda do post
 
-> Este Natal, o estúdio da Salu abre com preço de inauguração 🎄
+> Ensaio de Natal no estúdio da Salu 🎄
 >
-> 30 minutos de ensaio, com 10, 15 ou 20 fotos inclusas.
-> A partir de **R$ 199** (primeiras 40 sessões).
+> 30 minutos, 10 fotos editadas e entrega em 24 horas úteis.
+> Tudo por **R$ 199** (primeiras 40 sessões).
 >
-> Quer mais fotos, impressão ou álbum? Você escolhe na hora, sem pacote fechado.
+> Pet é bem-vindo, sem custo extra.
+> Quer mais fotos? R$ 6 cada.
 >
 > Reserva pelo WhatsApp.
 
 ### Proposta no WhatsApp
 
-> Perfeito! Temos três opções, todas com 30 minutos de ensaio:
-> Presente (10 fotos) R$ 199 · Clássico (15 fotos) R$ 230 · Completo (20 fotos) R$ 250.
+> Oi, [nome]! O ensaio de Natal está em R$ 199 e inclui 30 minutos no estúdio, 10 fotos editadas e entrega em 24h úteis.
 >
-> Para garantir a vaga, o sinal é R$ 100 no Pix. O restante fica para o dia da sessão.
-> Depois da sessão eu te mostro as fotos e você decide se quer levar mais alguma coisa.
+> Para garantir a vaga, o sinal é R$ 50 no Pix (terça a quinta) ou R$ 100 no fim de semana.
+>
+> Qual dia fica melhor para você?

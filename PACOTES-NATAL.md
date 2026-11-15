@@ -18,7 +18,7 @@ Modelo de volume: 30 minutos de ensaio, três opções de fotos e venda avulsa n
 
 | Opção | Fotos | Preço | Por foto |
 | --- | --- | --- | --- |
-| **Presente** | 8 | **R$ 199** | R$ 24,90 |
+| **Presente** | 10 | **R$ 199** | R$ 19,90 |
 | **Clássico** | 15 | **R$ 230** | R$ 15,33 |
 | **Completo** | 20 | **R$ 250** | R$ 12,50 |
 
@@ -120,7 +120,7 @@ Com 100 sessões você edita **até 2.000 fotos** em 5 semanas. Sem preset em lo
 
 > Este Natal, o estúdio da Salu abre com preço de inauguração 🎄
 >
-> 30 minutos de ensaio, com 8, 15 ou 20 fotos inclusas.
+> 30 minutos de ensaio, com 10, 15 ou 20 fotos inclusas.
 > A partir de **R$ 199** (primeiras 40 sessões).
 >
 > Quer mais fotos, impressão ou álbum? Você escolhe na hora, sem pacote fechado.
@@ -130,7 +130,7 @@ Com 100 sessões você edita **até 2.000 fotos** em 5 semanas. Sem preset em lo
 ### Proposta no WhatsApp
 
 > Perfeito! Temos três opções, todas com 30 minutos de ensaio:
-> Presente (8 fotos) R$ 199 · Clássico (15 fotos) R$ 230 · Completo (20 fotos) R$ 250.
+> Presente (10 fotos) R$ 199 · Clássico (15 fotos) R$ 230 · Completo (20 fotos) R$ 250.
 >
 > Para garantir a vaga, o sinal é R$ 100 no Pix. O restante fica para o dia da sessão.
 > Depois da sessão eu te mostro as fotos e você decide se quer levar mais alguma coisa.

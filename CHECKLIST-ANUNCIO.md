@@ -64,7 +64,7 @@ Acesse: **business.facebook.com/adsmanager** → **Criar**
 
 **A — Direto (recomendado para começar)**
 > Ensaio de Natal no estúdio da Salu 🎄
-> **Presente R$ 199 · 8 fotos**
+> **Presente R$ 199 · 10 fotos**
 > 20 min de ensaio + 5 fotos inclusas. Depois você escolhe mais fotos, impressão ou álbum.
 > Chama no WhatsApp →
 
